@@ -1,0 +1,9 @@
+C:\Users\fernando.garcia\Documents\Proyectos Skytex\WebAppCitas\Entidades\bin\Release\Entidades.dll.config
+C:\Users\fernando.garcia\Documents\Proyectos Skytex\WebAppCitas\Entidades\bin\Release\Entidades.dll
+C:\Users\fernando.garcia\Documents\Proyectos Skytex\WebAppCitas\Entidades\bin\Release\Entidades.pdb
+C:\Users\fernando.garcia\Documents\Proyectos Skytex\WebAppCitas\Entidades\bin\Release\EntityFramework.dll
+C:\Users\fernando.garcia\Documents\Proyectos Skytex\WebAppCitas\Entidades\bin\Release\EntityFramework.SqlServer.dll
+C:\Users\fernando.garcia\Documents\Proyectos Skytex\WebAppCitas\Entidades\bin\Release\EntityFramework.xml
+C:\Users\fernando.garcia\Documents\Proyectos Skytex\WebAppCitas\Entidades\bin\Release\EntityFramework.SqlServer.xml
+C:\Users\fernando.garcia\Documents\Proyectos Skytex\WebAppCitas\Entidades\obj\Release\Entidades.dll
+C:\Users\fernando.garcia\Documents\Proyectos Skytex\WebAppCitas\Entidades\obj\Release\Entidades.pdb
