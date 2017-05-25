@@ -1,0 +1,12 @@
+C:\Users\fernando.garcia\Documents\Proyectos Skytex\WebAppCitas\AccesoDatos\bin\Release\AccesoDatos.dll.config
+C:\Users\fernando.garcia\Documents\Proyectos Skytex\WebAppCitas\AccesoDatos\bin\Release\AccesoDatos.dll
+C:\Users\fernando.garcia\Documents\Proyectos Skytex\WebAppCitas\AccesoDatos\bin\Release\AccesoDatos.pdb
+C:\Users\fernando.garcia\Documents\Proyectos Skytex\WebAppCitas\AccesoDatos\bin\Release\Entidades.dll
+C:\Users\fernando.garcia\Documents\Proyectos Skytex\WebAppCitas\AccesoDatos\bin\Release\EntityFramework.dll
+C:\Users\fernando.garcia\Documents\Proyectos Skytex\WebAppCitas\AccesoDatos\bin\Release\EntityFramework.SqlServer.dll
+C:\Users\fernando.garcia\Documents\Proyectos Skytex\WebAppCitas\AccesoDatos\bin\Release\Entidades.pdb
+C:\Users\fernando.garcia\Documents\Proyectos Skytex\WebAppCitas\AccesoDatos\bin\Release\EntityFramework.xml
+C:\Users\fernando.garcia\Documents\Proyectos Skytex\WebAppCitas\AccesoDatos\bin\Release\EntityFramework.SqlServer.xml
+C:\Users\fernando.garcia\Documents\Proyectos Skytex\WebAppCitas\AccesoDatos\obj\Release\WebAppCitas.AccesoDatos.csprojResolveAssemblyReference.cache
+C:\Users\fernando.garcia\Documents\Proyectos Skytex\WebAppCitas\AccesoDatos\obj\Release\AccesoDatos.dll
+C:\Users\fernando.garcia\Documents\Proyectos Skytex\WebAppCitas\AccesoDatos\obj\Release\AccesoDatos.pdb

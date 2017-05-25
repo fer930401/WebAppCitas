@@ -1,0 +1,285 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="skytexModelStoreContainer" CdmEntityContainer="skytexEntities">
+    <EntitySetMapping Name="xcuser">
+      <EntityTypeMapping TypeName="skytexModel.xcuser">
+        <MappingFragment StoreEntitySet="xcuser">
+          <ScalarProperty Name="sw_password" ColumnName="sw_password" />
+          <ScalarProperty Name="ef_cve" ColumnName="ef_cve" />
+          <ScalarProperty Name="div_cve" ColumnName="div_cve" />
+          <ScalarProperty Name="user_cve" ColumnName="user_cve" />
+          <ScalarProperty Name="nombre" ColumnName="nombre" />
+          <ScalarProperty Name="password" ColumnName="password" />
+          <ScalarProperty Name="dest_mail" ColumnName="dest_mail" />
+          <ScalarProperty Name="idioma" ColumnName="idioma" />
+          <ScalarProperty Name="srv_cve" ColumnName="srv_cve" />
+          <ScalarProperty Name="path_adobe" ColumnName="path_adobe" />
+          <ScalarProperty Name="status" ColumnName="status" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <FunctionImportMapping FunctionImportName="sp_webAppSalaCbo" FunctionName="skytexModel.Store.sp_webAppSalaCbo">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="skytexModel.sp_webAppSalaCbo_Result">
+          <ScalarProperty Name="resultado" ColumnName="resultado" />
+          <ScalarProperty Name="clave" ColumnName="clave" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <EntitySetMapping Name="xcdconapl_cl">
+      <EntityTypeMapping TypeName="skytexModel.xcdconapl_cl">
+        <MappingFragment StoreEntitySet="xcdconapl_cl">
+          <ScalarProperty Name="prm16" ColumnName="prm16" />
+          <ScalarProperty Name="prm15" ColumnName="prm15" />
+          <ScalarProperty Name="prm14" ColumnName="prm14" />
+          <ScalarProperty Name="prm13" ColumnName="prm13" />
+          <ScalarProperty Name="prm12" ColumnName="prm12" />
+          <ScalarProperty Name="prm11" ColumnName="prm11" />
+          <ScalarProperty Name="prm10" ColumnName="prm10" />
+          <ScalarProperty Name="prm9" ColumnName="prm9" />
+          <ScalarProperty Name="prm8" ColumnName="prm8" />
+          <ScalarProperty Name="prm7" ColumnName="prm7" />
+          <ScalarProperty Name="prm6" ColumnName="prm6" />
+          <ScalarProperty Name="prm5" ColumnName="prm5" />
+          <ScalarProperty Name="prm4" ColumnName="prm4" />
+          <ScalarProperty Name="prm3" ColumnName="prm3" />
+          <ScalarProperty Name="prm2" ColumnName="prm2" />
+          <ScalarProperty Name="prm1" ColumnName="prm1" />
+          <ScalarProperty Name="spd_cve" ColumnName="spd_cve" />
+          <ScalarProperty Name="num_reng" ColumnName="num_reng" />
+          <ScalarProperty Name="sp_cve" ColumnName="sp_cve" />
+          <ScalarProperty Name="tipdoc_cve" ColumnName="tipdoc_cve" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <FunctionImportMapping FunctionImportName="qcomsala1" FunctionName="skytexModel.Store.qcomsala1">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="skytexModel.qcomsala1_Result">
+          <ScalarProperty Name="spd_cve" ColumnName="spd_cve" />
+          <ScalarProperty Name="prm1" ColumnName="prm1" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="qcomtiptra1" FunctionName="skytexModel.Store.qcomtiptra1">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="skytexModel.qcomtiptra1_Result">
+          <ScalarProperty Name="spd_cve" ColumnName="spd_cve" />
+          <ScalarProperty Name="prm1" ColumnName="prm1" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <EntitySetMapping Name="itmov">
+      <EntityTypeMapping TypeName="skytexModel.itmov">
+        <MappingFragment StoreEntitySet="itmov">
+          <ScalarProperty Name="fec_letra" ColumnName="fec_letra" />
+          <ScalarProperty Name="imp_letra" ColumnName="imp_letra" />
+          <ScalarProperty Name="suc_aten" ColumnName="suc_aten" />
+          <ScalarProperty Name="suc_cve" ColumnName="suc_cve" />
+          <ScalarProperty Name="sw_impexp" ColumnName="sw_impexp" />
+          <ScalarProperty Name="plazo" ColumnName="plazo" />
+          <ScalarProperty Name="foremb_tipo" ColumnName="foremb_tipo" />
+          <ScalarProperty Name="ven_tipo" ColumnName="ven_tipo" />
+          <ScalarProperty Name="dato10" ColumnName="dato10" />
+          <ScalarProperty Name="dato9" ColumnName="dato9" />
+          <ScalarProperty Name="dato8" ColumnName="dato8" />
+          <ScalarProperty Name="dato7" ColumnName="dato7" />
+          <ScalarProperty Name="dato6" ColumnName="dato6" />
+          <ScalarProperty Name="dato5" ColumnName="dato5" />
+          <ScalarProperty Name="dato4" ColumnName="dato4" />
+          <ScalarProperty Name="dato3" ColumnName="dato3" />
+          <ScalarProperty Name="dato2" ColumnName="dato2" />
+          <ScalarProperty Name="dato1" ColumnName="dato1" />
+          <ScalarProperty Name="sw_consolida" ColumnName="sw_consolida" />
+          <ScalarProperty Name="sw_impdia" ColumnName="sw_impdia" />
+          <ScalarProperty Name="pct_descpp" ColumnName="pct_descpp" />
+          <ScalarProperty Name="plazo_pp" ColumnName="plazo_pp" />
+          <ScalarProperty Name="tie_trans" ColumnName="tie_trans" />
+          <ScalarProperty Name="no_bultos" ColumnName="no_bultos" />
+          <ScalarProperty Name="contenedor" ColumnName="contenedor" />
+          <ScalarProperty Name="num_guia" ColumnName="num_guia" />
+          <ScalarProperty Name="seguro" ColumnName="seguro" />
+          <ScalarProperty Name="cif_flete" ColumnName="cif_flete" />
+          <ScalarProperty Name="cf_flete" ColumnName="cf_flete" />
+          <ScalarProperty Name="sw_transp" ColumnName="sw_transp" />
+          <ScalarProperty Name="dest_cve" ColumnName="dest_cve" />
+          <ScalarProperty Name="cif_cve" ColumnName="cif_cve" />
+          <ScalarProperty Name="cf_cve" ColumnName="cf_cve" />
+          <ScalarProperty Name="fob_cve" ColumnName="fob_cve" />
+          <ScalarProperty Name="forpag_cve" ColumnName="forpag_cve" />
+          <ScalarProperty Name="sw_entpar" ColumnName="sw_entpar" />
+          <ScalarProperty Name="sw_facpar" ColumnName="sw_facpar" />
+          <ScalarProperty Name="fec_prom" ColumnName="fec_prom" />
+          <ScalarProperty Name="pct_canacp" ColumnName="pct_canacp" />
+          <ScalarProperty Name="obs" ColumnName="obs" />
+          <ScalarProperty Name="ieps" ColumnName="ieps" />
+          <ScalarProperty Name="iva" ColumnName="iva" />
+          <ScalarProperty Name="total" ColumnName="total" />
+          <ScalarProperty Name="tc" ColumnName="tc" />
+          <ScalarProperty Name="tm" ColumnName="tm" />
+          <ScalarProperty Name="pct_desc" ColumnName="pct_desc" />
+          <ScalarProperty Name="foremb_cve" ColumnName="foremb_cve" />
+          <ScalarProperty Name="id_ultact" ColumnName="id_ultact" />
+          <ScalarProperty Name="fec_ultact" ColumnName="fec_ultact" />
+          <ScalarProperty Name="fec_mov" ColumnName="fec_mov" />
+          <ScalarProperty Name="refer" ColumnName="refer" />
+          <ScalarProperty Name="tipo_docp" ColumnName="tipo_docp" />
+          <ScalarProperty Name="num_folp" ColumnName="num_folp" />
+          <ScalarProperty Name="ef_cvep" ColumnName="ef_cvep" />
+          <ScalarProperty Name="tipo_doc" ColumnName="tipo_doc" />
+          <ScalarProperty Name="tot_reng" ColumnName="tot_reng" />
+          <ScalarProperty Name="num_fol" ColumnName="num_fol" />
+          <ScalarProperty Name="ven_cve" ColumnName="ven_cve" />
+          <ScalarProperty Name="alm_cve" ColumnName="alm_cve" />
+          <ScalarProperty Name="cc_cve" ColumnName="cc_cve" />
+          <ScalarProperty Name="cc_tipo" ColumnName="cc_tipo" />
+          <ScalarProperty Name="div_cve" ColumnName="div_cve" />
+          <ScalarProperty Name="ef_cve" ColumnName="ef_cve" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="xcdivef">
+      <EntityTypeMapping TypeName="skytexModel.xcdivef">
+        <MappingFragment StoreEntitySet="xcdivef">
+          <ScalarProperty Name="status" ColumnName="status" />
+          <ScalarProperty Name="div_grp" ColumnName="div_grp" />
+          <ScalarProperty Name="bgt_sgrp" ColumnName="bgt_sgrp" />
+          <ScalarProperty Name="bgt_grp" ColumnName="bgt_grp" />
+          <ScalarProperty Name="nombre" ColumnName="nombre" />
+          <ScalarProperty Name="div_cve" ColumnName="div_cve" />
+          <ScalarProperty Name="ef_cve" ColumnName="ef_cve" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="xuarttip">
+      <EntityTypeMapping TypeName="skytexModel.xuarttip">
+        <MappingFragment StoreEntitySet="xuarttip">
+          <ScalarProperty Name="art_tip" ColumnName="art_tip" />
+          <ScalarProperty Name="prg_cve" ColumnName="prg_cve" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="xufolios">
+      <EntityTypeMapping TypeName="skytexModel.xufolios">
+        <MappingFragment StoreEntitySet="xufolios">
+          <ScalarProperty Name="sp8" ColumnName="sp8" />
+          <ScalarProperty Name="sp7" ColumnName="sp7" />
+          <ScalarProperty Name="sp6" ColumnName="sp6" />
+          <ScalarProperty Name="sp5" ColumnName="sp5" />
+          <ScalarProperty Name="sp4" ColumnName="sp4" />
+          <ScalarProperty Name="sp3" ColumnName="sp3" />
+          <ScalarProperty Name="sp2" ColumnName="sp2" />
+          <ScalarProperty Name="sp1" ColumnName="sp1" />
+          <ScalarProperty Name="ult_fol" ColumnName="ult_fol" />
+          <ScalarProperty Name="tipdoc_cve" ColumnName="tipdoc_cve" />
+          <ScalarProperty Name="ef_cve" ColumnName="ef_cve" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <FunctionImportMapping FunctionImportName="qcomarea1" FunctionName="skytexModel.Store.qcomarea1" />
+    <FunctionImportMapping FunctionImportName="qcomare1" FunctionName="skytexModel.Store.qcomare1">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="skytexModel.qcomare1_Result">
+          <ScalarProperty Name="nombre" ColumnName="nombre" />
+          <ScalarProperty Name="clave" ColumnName="clave" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="sp_HoraFin" FunctionName="skytexModel.Store.sp_HoraFin" />
+    <FunctionImportMapping FunctionImportName="qcomFiltra" FunctionName="skytexModel.Store.qcomFiltra" />
+    <FunctionImportMapping FunctionImportName="sp_FiltraHoraSalida" FunctionName="skytexModel.Store.sp_FiltraHoraSalida">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="skytexModel.sp_FiltraHoraSalida_Result">
+          <ScalarProperty Name="spd_cve" ColumnName="spd_cve" />
+          <ScalarProperty Name="prm1" ColumnName="prm1" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="qcomhora1" FunctionName="skytexModel.Store.qcomhora1">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="skytexModel.qcomhora1_Result">
+          <ScalarProperty Name="horasDisp" ColumnName="horasDisp" />
+          <ScalarProperty Name="prm1" ColumnName="prm1" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="sp_InsertarDetalleCitas" FunctionName="skytexModel.Store.sp_InsertarDetalleCitas">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="skytexModel.sp_InsertarDetalleCitas_Result">
+          <ScalarProperty Name="mensaje" ColumnName="mensaje" />
+          <ScalarProperty Name="error" ColumnName="error" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="qcomWebHora" FunctionName="skytexModel.Store.qcomWebHora">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="skytexModel.qcomWebHora_Result">
+          <ScalarProperty Name="Hora" ColumnName="Hora" />
+          <ScalarProperty Name="Clave" ColumnName="Clave" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="sp_ConsCitasCalendario" FunctionName="skytexModel.Store.sp_ConsCitasCalendario">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="skytexModel.sp_ConsCitasCalendario_Result">
+          <ScalarProperty Name="ef_cve" ColumnName="ef_cve" />
+          <ScalarProperty Name="tipdoc_cve" ColumnName="tipdoc_cve" />
+          <ScalarProperty Name="num_fol" ColumnName="num_fol" />
+          <ScalarProperty Name="cve_status" ColumnName="cve_status" />
+          <ScalarProperty Name="nombre" ColumnName="nombre" />
+          <ScalarProperty Name="sw_terminado" ColumnName="sw_terminado" />
+          <ScalarProperty Name="sw_si_no" ColumnName="sw_si_no" />
+          <ScalarProperty Name="id_ultact" ColumnName="id_ultact" />
+          <ScalarProperty Name="imp_letra" ColumnName="imp_letra" />
+          <ScalarProperty Name="refer" ColumnName="refer" />
+          <ScalarProperty Name="fec_ultact" ColumnName="fec_ultact" />
+          <ScalarProperty Name="fec_prom" ColumnName="fec_prom" />
+          <ScalarProperty Name="spd_cve" ColumnName="spd_cve" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="sp_AutValCita" FunctionName="skytexModel.Store.sp_AutValCita">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="skytexModel.sp_AutValCita_Result">
+          <ScalarProperty Name="mensaje" ColumnName="mensaje" />
+          <ScalarProperty Name="error" ColumnName="error" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="sp_InsertarEncabezadoCitas" FunctionName="skytexModel.Store.sp_InsertarEncabezadoCitas">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="skytexModel.sp_InsertarEncabezadoCitas_Result">
+          <ScalarProperty Name="mensaje" ColumnName="mensaje" />
+          <ScalarProperty Name="error" ColumnName="error" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="sp_consCitas" FunctionName="skytexModel.Store.sp_consCitas">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="skytexModel.sp_consCitas_Result">
+          <ScalarProperty Name="fec_letra" ColumnName="fec_letra" />
+          <ScalarProperty Name="tipdoc_cve" ColumnName="tipdoc_cve" />
+          <ScalarProperty Name="num_fol" ColumnName="num_fol" />
+          <ScalarProperty Name="cve_status" ColumnName="cve_status" />
+          <ScalarProperty Name="nombre" ColumnName="nombre" />
+          <ScalarProperty Name="sw_terminado" ColumnName="sw_terminado" />
+          <ScalarProperty Name="sw_si_no" ColumnName="sw_si_no" />
+          <ScalarProperty Name="id_ultact" ColumnName="id_ultact" />
+          <ScalarProperty Name="fec_ultactI" ColumnName="fec_ultactI" />
+          <ScalarProperty Name="imp_letra" ColumnName="imp_letra" />
+          <ScalarProperty Name="refer" ColumnName="refer" />
+          <ScalarProperty Name="spd_cve" ColumnName="spd_cve" />
+          <ScalarProperty Name="fec_ultact" ColumnName="fec_ultact" />
+          <ScalarProperty Name="fec_prom" ColumnName="fec_prom" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="qcomWebHoraReagenda" FunctionName="skytexModel.Store.qcomWebHoraReagenda">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="skytexModel.qcomWebHoraReagenda_Result">
+          <ScalarProperty Name="Hora" ColumnName="Hora" />
+          <ScalarProperty Name="Clave" ColumnName="Clave" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+  </EntityContainerMapping>
+</Mapping>

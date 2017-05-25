@@ -1,0 +1,273 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="skytexModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="itmov">
+    <Key>
+      <PropertyRef Name="ef_cve" />
+      <PropertyRef Name="num_fol" />
+      <PropertyRef Name="tipo_doc" />
+    </Key>
+    <Property Name="ef_cve" Type="nchar" MaxLength="3" Nullable="false" />
+    <Property Name="div_cve" Type="nchar" MaxLength="3" Nullable="false" />
+    <Property Name="cc_tipo" Type="nchar" MaxLength="1" Nullable="false" />
+    <Property Name="cc_cve" Type="nchar" MaxLength="6" Nullable="false" />
+    <Property Name="alm_cve" Type="nchar" MaxLength="3" Nullable="false" />
+    <Property Name="ven_cve" Type="nchar" MaxLength="6" />
+    <Property Name="num_fol" Type="int" Nullable="false" />
+    <Property Name="tot_reng" Type="smallint" Nullable="false" />
+    <Property Name="tipo_doc" Type="nchar" MaxLength="6" Nullable="false" />
+    <Property Name="ef_cvep" Type="nchar" MaxLength="3" />
+    <Property Name="num_folp" Type="int" />
+    <Property Name="tipo_docp" Type="nchar" MaxLength="6" />
+    <Property Name="refer" Type="nvarchar" MaxLength="20" />
+    <Property Name="fec_mov" Type="datetime" Nullable="false" />
+    <Property Name="fec_ultact" Type="datetime" Nullable="false" />
+    <Property Name="id_ultact" Type="nchar" MaxLength="3" Nullable="false" />
+    <Property Name="foremb_cve" Type="nchar" MaxLength="6" />
+    <Property Name="pct_desc" Type="decimal" Precision="7" Scale="4" Nullable="false" />
+    <Property Name="tm" Type="nchar" MaxLength="3" />
+    <Property Name="tc" Type="decimal" Precision="12" Scale="6" Nullable="false" />
+    <Property Name="total" Type="money" Nullable="false" />
+    <Property Name="iva" Type="money" Nullable="false" />
+    <Property Name="ieps" Type="money" Nullable="false" />
+    <Property Name="obs" Type="ntext" />
+    <Property Name="pct_canacp" Type="decimal" Precision="7" Scale="4" Nullable="false" />
+    <Property Name="fec_prom" Type="datetime" Nullable="false" />
+    <Property Name="sw_facpar" Type="bit" Nullable="false" />
+    <Property Name="sw_entpar" Type="bit" Nullable="false" />
+    <Property Name="forpag_cve" Type="nchar" MaxLength="3" />
+    <Property Name="fob_cve" Type="nchar" MaxLength="6" />
+    <Property Name="cf_cve" Type="nchar" MaxLength="6" />
+    <Property Name="cif_cve" Type="nchar" MaxLength="6" />
+    <Property Name="dest_cve" Type="nchar" MaxLength="6" />
+    <Property Name="sw_transp" Type="nchar" MaxLength="6" Nullable="false" />
+    <Property Name="cf_flete" Type="money" Nullable="false" />
+    <Property Name="cif_flete" Type="money" Nullable="false" />
+    <Property Name="seguro" Type="money" Nullable="false" />
+    <Property Name="num_guia" Type="nvarchar" MaxLength="20" />
+    <Property Name="contenedor" Type="nvarchar" MaxLength="20" />
+    <Property Name="no_bultos" Type="decimal" Precision="19" Scale="4" Nullable="false" />
+    <Property Name="tie_trans" Type="decimal" Precision="19" Scale="4" Nullable="false" />
+    <Property Name="plazo_pp" Type="smallint" Nullable="false" />
+    <Property Name="pct_descpp" Type="decimal" Precision="7" Scale="4" Nullable="false" />
+    <Property Name="sw_impdia" Type="bit" Nullable="false" />
+    <Property Name="sw_consolida" Type="bit" Nullable="false" />
+    <Property Name="dato1" Type="money" Nullable="false" />
+    <Property Name="dato2" Type="money" Nullable="false" />
+    <Property Name="dato3" Type="money" Nullable="false" />
+    <Property Name="dato4" Type="money" Nullable="false" />
+    <Property Name="dato5" Type="money" Nullable="false" />
+    <Property Name="dato6" Type="money" Nullable="false" />
+    <Property Name="dato7" Type="money" Nullable="false" />
+    <Property Name="dato8" Type="money" Nullable="false" />
+    <Property Name="dato9" Type="money" Nullable="false" />
+    <Property Name="dato10" Type="money" Nullable="false" />
+    <Property Name="ven_tipo" Type="nchar" MaxLength="1" />
+    <Property Name="foremb_tipo" Type="nchar" MaxLength="1" />
+    <Property Name="plazo" Type="smallint" />
+    <Property Name="sw_impexp" Type="bit" Nullable="false" />
+    <Property Name="suc_cve" Type="nchar" MaxLength="3" />
+    <Property Name="suc_aten" Type="nvarchar" MaxLength="25" />
+    <Property Name="imp_letra" Type="nvarchar" MaxLength="255" />
+    <Property Name="fec_letra" Type="nvarchar" MaxLength="255" />
+  </EntityType>
+  <EntityType Name="xcdconapl_cl">
+    <Key>
+      <PropertyRef Name="tipdoc_cve" />
+      <PropertyRef Name="sp_cve" />
+      <PropertyRef Name="num_reng" />
+      <PropertyRef Name="spd_cve" />
+    </Key>
+    <Property Name="tipdoc_cve" Type="nchar" MaxLength="6" Nullable="false" />
+    <Property Name="sp_cve" Type="nvarchar" MaxLength="25" Nullable="false" />
+    <Property Name="num_reng" Type="smallint" Nullable="false" />
+    <Property Name="spd_cve" Type="nvarchar" MaxLength="25" Nullable="false" />
+    <Property Name="prm1" Type="nchar" MaxLength="6" />
+    <Property Name="prm2" Type="nchar" MaxLength="6" />
+    <Property Name="prm3" Type="nchar" MaxLength="6" />
+    <Property Name="prm4" Type="nchar" MaxLength="6" />
+    <Property Name="prm5" Type="nchar" MaxLength="6" />
+    <Property Name="prm6" Type="nvarchar" MaxLength="25" />
+    <Property Name="prm7" Type="nvarchar" MaxLength="255" />
+    <Property Name="prm8" Type="nvarchar" MaxLength="255" />
+    <Property Name="prm9" Type="nvarchar" MaxLength="255" />
+    <Property Name="prm10" Type="nvarchar" MaxLength="255" />
+    <Property Name="prm11" Type="nchar" MaxLength="6" />
+    <Property Name="prm12" Type="nchar" MaxLength="3" />
+    <Property Name="prm13" Type="nvarchar" MaxLength="255" />
+    <Property Name="prm14" Type="smallint" />
+    <Property Name="prm15" Type="money" />
+    <Property Name="prm16" Type="nchar" MaxLength="6" />
+  </EntityType>
+  <EntityType Name="xcdivef">
+    <Key>
+      <PropertyRef Name="ef_cve" />
+      <PropertyRef Name="div_cve" />
+    </Key>
+    <Property Name="ef_cve" Type="nchar" MaxLength="3" Nullable="false" />
+    <Property Name="div_cve" Type="nchar" MaxLength="3" Nullable="false" />
+    <Property Name="nombre" Type="nvarchar" MaxLength="40" Nullable="false" />
+    <Property Name="bgt_grp" Type="nvarchar" MaxLength="40" />
+    <Property Name="bgt_sgrp" Type="nvarchar" MaxLength="40" />
+    <Property Name="div_grp" Type="nchar" MaxLength="3" />
+    <Property Name="status" Type="bit" />
+  </EntityType>
+  <EntityType Name="xcuser">
+    <Key>
+      <PropertyRef Name="ef_cve" />
+      <PropertyRef Name="user_cve" />
+    </Key>
+    <Property Name="ef_cve" Type="nchar" MaxLength="3" Nullable="false" />
+    <Property Name="div_cve" Type="nchar" MaxLength="3" Nullable="false" />
+    <Property Name="user_cve" Type="nchar" MaxLength="3" Nullable="false" />
+    <Property Name="nombre" Type="nvarchar" MaxLength="25" Nullable="false" />
+    <Property Name="password" Type="nvarchar" MaxLength="15" Nullable="false" />
+    <Property Name="dest_mail" Type="nvarchar" MaxLength="40" />
+    <Property Name="idioma" Type="nchar" MaxLength="3" />
+    <Property Name="srv_cve" Type="nvarchar" MaxLength="25" />
+    <Property Name="path_adobe" Type="nvarchar" MaxLength="255" />
+    <Property Name="status" Type="smallint" />
+    <Property Name="sw_password" Type="smallint" />
+  </EntityType>
+  <EntityType Name="xuarttip">
+    <Key>
+      <PropertyRef Name="prg_cve" />
+      <PropertyRef Name="art_tip" />
+    </Key>
+    <Property Name="prg_cve" Type="nvarchar" MaxLength="15" Nullable="false" />
+    <Property Name="art_tip" Type="nchar" MaxLength="3" Nullable="false" />
+  </EntityType>
+  <EntityType Name="xufolios">
+    <Key>
+      <PropertyRef Name="ef_cve" />
+      <PropertyRef Name="tipdoc_cve" />
+    </Key>
+    <Property Name="ef_cve" Type="nchar" MaxLength="3" Nullable="false" />
+    <Property Name="tipdoc_cve" Type="nchar" MaxLength="6" Nullable="false" />
+    <Property Name="ult_fol" Type="int" Nullable="false" />
+    <Property Name="sp1" Type="char" MaxLength="255" Nullable="false" />
+    <Property Name="sp2" Type="char" MaxLength="255" Nullable="false" />
+    <Property Name="sp3" Type="char" MaxLength="255" Nullable="false" />
+    <Property Name="sp4" Type="char" MaxLength="255" Nullable="false" />
+    <Property Name="sp5" Type="char" MaxLength="255" Nullable="false" />
+    <Property Name="sp6" Type="char" MaxLength="255" Nullable="false" />
+    <Property Name="sp7" Type="char" MaxLength="255" Nullable="false" />
+    <Property Name="sp8" Type="char" MaxLength="162" Nullable="false" />
+  </EntityType>
+  <Function Name="qcomare1" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="ef_cve" Type="nchar" Mode="In" />
+    <Parameter Name="prg_cve" Type="nvarchar" Mode="In" />
+  </Function>
+  <Function Name="qcomarea1" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="ef_cve" Type="nchar" Mode="In" />
+  </Function>
+  <Function Name="qcomFiltra" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="tipo_doc" Type="nchar" Mode="In" />
+    <Parameter Name="refer" Type="nvarchar" Mode="In" />
+    <Parameter Name="fechaCita" Type="datetime" Mode="In" />
+  </Function>
+  <Function Name="qcomhora1" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="tipdoc_cve" Type="nchar" Mode="In" />
+    <Parameter Name="fecha" Type="datetime" Mode="In" />
+    <Parameter Name="refer" Type="nvarchar" Mode="In" />
+    <Parameter Name="ef_cve" Type="nchar" Mode="In" />
+  </Function>
+  <Function Name="qcomsala1" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="tipdoc_cve" Type="nchar" Mode="In" />
+    <Parameter Name="movimiento" Type="nchar" Mode="In" />
+  </Function>
+  <Function Name="qcomtiptra1" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="tipdoc_cve" Type="nchar" Mode="In" />
+  </Function>
+  <Function Name="qcomWebHora" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="tipdoc_cve" Type="nchar" Mode="In" />
+    <Parameter Name="fecha" Type="datetime" Mode="In" />
+    <Parameter Name="refer" Type="nvarchar" Mode="In" />
+    <Parameter Name="hora" Type="char" Mode="In" />
+    <Parameter Name="ef_cve" Type="nchar" Mode="In" />
+    <Parameter Name="Id_pant" Type="smallint" Mode="In" />
+    <Parameter Name="fec_salida" Type="datetime" Mode="In" />
+  </Function>
+  <Function Name="qcomWebHoraReagenda" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="tipdoc_cve" Type="nchar" Mode="In" />
+    <Parameter Name="fecha" Type="nvarchar" Mode="In" />
+    <Parameter Name="refer" Type="nvarchar" Mode="In" />
+    <Parameter Name="hora" Type="char" Mode="In" />
+    <Parameter Name="ef_cve" Type="nchar" Mode="In" />
+    <Parameter Name="Id_pant" Type="smallint" Mode="In" />
+    <Parameter Name="fec_salida" Type="nvarchar" Mode="In" />
+    <Parameter Name="num_fol" Type="int" Mode="In" />
+  </Function>
+  <Function Name="sp_AutValCita" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="ef_cve" Type="nchar" Mode="In" />
+    <Parameter Name="tipo_doc" Type="nchar" Mode="In" />
+    <Parameter Name="num_fol" Type="int" Mode="In" />
+    <Parameter Name="cve_status" Type="int" Mode="In" />
+    <Parameter Name="sw_terminado" Type="int" Mode="In" />
+    <Parameter Name="sw_si_no" Type="int" Mode="In" />
+    <Parameter Name="id_ultact" Type="nchar" Mode="In" />
+    <Parameter Name="obs" Type="nvarchar" Mode="In" />
+    <Parameter Name="fec_ultact" Type="datetime" Mode="In" />
+    <Parameter Name="fec_prom" Type="datetime" Mode="In" />
+    <Parameter Name="refer" Type="nchar" Mode="In" />
+  </Function>
+  <Function Name="sp_consCitas" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="tipdoc_cve" Type="nchar" Mode="In" />
+    <Parameter Name="opc" Type="nchar" Mode="In" />
+    <Parameter Name="user_cve" Type="nchar" Mode="In" />
+    <Parameter Name="fecha" Type="datetime" Mode="In" />
+  </Function>
+  <Function Name="sp_ConsCitasCalendario" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo" />
+  <Function Name="sp_FiltraHoraSalida" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="tipdoc_cve" Type="nchar" Mode="In" />
+    <Parameter Name="fecha" Type="datetime" Mode="In" />
+    <Parameter Name="refer" Type="nvarchar" Mode="In" />
+    <Parameter Name="horaE" Type="nvarchar" Mode="In" />
+  </Function>
+  <Function Name="sp_HoraFin" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="fecha" Type="datetime" Mode="In" />
+    <Parameter Name="tipo_doc" Type="nchar" Mode="In" />
+    <Parameter Name="refer" Type="nvarchar" Mode="In" />
+  </Function>
+  <Function Name="sp_InsertarDetalleCitas" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="ef_cve" Type="nchar" Mode="In" />
+    <Parameter Name="tipo_doc" Type="nchar" Mode="In" />
+    <Parameter Name="num_fol" Type="int" Mode="In" />
+    <Parameter Name="desc_op" Type="nvarchar" Mode="In" />
+    <Parameter Name="lote_num" Type="nvarchar" Mode="In" />
+    <Parameter Name="lote_fec" Type="datetime" Mode="In" />
+    <Parameter Name="art_tip" Type="nchar" Mode="In" />
+    <Parameter Name="sku_cve" Type="nvarchar" Mode="In" />
+  </Function>
+  <Function Name="sp_InsertarEncabezadoCitas" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="ef_cve" Type="nchar" Mode="In" />
+    <Parameter Name="tipdoc_cve" Type="nchar" Mode="In" />
+    <Parameter Name="fec_ultact" Type="datetime" Mode="In" />
+    <Parameter Name="fec_prom" Type="datetime" Mode="In" />
+    <Parameter Name="imp_letra" Type="nvarchar" Mode="In" />
+    <Parameter Name="fec_letra" Type="nvarchar" Mode="In" />
+    <Parameter Name="refer" Type="nvarchar" Mode="In" />
+    <Parameter Name="id_ultact" Type="nchar" Mode="In" />
+    <Parameter Name="plazo" Type="smallint" Mode="In" />
+    <Parameter Name="suc_aten" Type="nvarchar" Mode="In" />
+    <Parameter Name="obs" Type="ntext" Mode="In" />
+    <Parameter Name="pr5" Type="nvarchar" Mode="In" />
+    <Parameter Name="pr1" Type="nvarchar" Mode="In" />
+    <Parameter Name="uuid" Type="nvarchar" Mode="In" />
+  </Function>
+  <Function Name="sp_webAppSalaCbo" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="ef_cve" Type="nchar" Mode="In" />
+    <Parameter Name="movimiento" Type="nvarchar" Mode="In" />
+    <Parameter Name="extra1" Type="nvarchar" Mode="In" />
+    <Parameter Name="extra2" Type="nvarchar" Mode="In" />
+    <Parameter Name="extra3" Type="nvarchar" Mode="In" />
+    <Parameter Name="extra4" Type="nvarchar" Mode="In" />
+  </Function>
+  <EntityContainer Name="skytexModelStoreContainer">
+    <EntitySet Name="itmov" EntityType="Self.itmov" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="xcdconapl_cl" EntityType="Self.xcdconapl_cl" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="xcdivef" EntityType="Self.xcdivef" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="xcuser" EntityType="Self.xcuser" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="xuarttip" EntityType="Self.xuarttip" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="xufolios" EntityType="Self.xufolios" Schema="dbo" store:Type="Tables" />
+  </EntityContainer>
+</Schema>

@@ -1,0 +1,366 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="skytexModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="xcuser">
+    <Key>
+      <PropertyRef Name="ef_cve" />
+      <PropertyRef Name="user_cve" />
+    </Key>
+    <Property Name="ef_cve" Type="String" MaxLength="3" FixedLength="true" Unicode="true" Nullable="false" />
+    <Property Name="div_cve" Type="String" MaxLength="3" FixedLength="true" Unicode="true" Nullable="false" />
+    <Property Name="user_cve" Type="String" MaxLength="3" FixedLength="true" Unicode="true" Nullable="false" />
+    <Property Name="nombre" Type="String" MaxLength="25" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="password" Type="String" MaxLength="15" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="dest_mail" Type="String" MaxLength="40" FixedLength="false" Unicode="true" />
+    <Property Name="idioma" Type="String" MaxLength="3" FixedLength="true" Unicode="true" />
+    <Property Name="srv_cve" Type="String" MaxLength="25" FixedLength="false" Unicode="true" />
+    <Property Name="path_adobe" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+    <Property Name="status" Type="Int16" />
+    <Property Name="sw_password" Type="Int16" />
+  </EntityType>
+  <EntityContainer Name="skytexEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="xcuser" EntityType="Self.xcuser" />
+    <FunctionImport Name="sp_webAppSalaCbo" ReturnType="Collection(skytexModel.sp_webAppSalaCbo_Result)">
+      <Parameter Name="ef_cve" Mode="In" Type="String" />
+      <Parameter Name="movimiento" Mode="In" Type="String" />
+      <Parameter Name="extra1" Mode="In" Type="String" />
+      <Parameter Name="extra2" Mode="In" Type="String" />
+      <Parameter Name="extra3" Mode="In" Type="String" />
+      <Parameter Name="extra4" Mode="In" Type="String" />
+    </FunctionImport>
+    <EntitySet Name="xcdconapl_cl" EntityType="skytexModel.xcdconapl_cl" />
+    <FunctionImport Name="qcomsala1" ReturnType="Collection(skytexModel.qcomsala1_Result)">
+      <Parameter Name="tipdoc_cve" Mode="In" Type="String" />
+      <Parameter Name="movimiento" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="qcomtiptra1" ReturnType="Collection(skytexModel.qcomtiptra1_Result)">
+      <Parameter Name="tipdoc_cve" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="sp_insdet">
+      <Parameter Name="ef_cve" Mode="In" Type="String" />
+      <Parameter Name="tipo_doc" Mode="In" Type="String" />
+      <Parameter Name="num_fol" Mode="In" Type="Int32" />
+      <Parameter Name="desc_op" Mode="In" Type="String" />
+      <Parameter Name="lote_num" Mode="In" Type="String" />
+      <Parameter Name="lote_fec" Mode="In" Type="DateTime" />
+    </FunctionImport>
+    <FunctionImport Name="sp_insenc">
+      <Parameter Name="ef_cve" Mode="In" Type="String" />
+      <Parameter Name="tipdoc_cve" Mode="In" Type="String" />
+      <Parameter Name="fec_ultact" Mode="In" Type="DateTime" />
+      <Parameter Name="fec_prom" Mode="In" Type="DateTime" />
+      <Parameter Name="fec_mov" Mode="In" Type="DateTime" />
+      <Parameter Name="imp_letra" Mode="In" Type="String" />
+      <Parameter Name="fec_letra" Mode="In" Type="String" />
+      <Parameter Name="refer" Mode="In" Type="String" />
+    </FunctionImport>
+    <EntitySet Name="itmov" EntityType="skytexModel.itmov" />
+    <EntitySet Name="xcdivef" EntityType="skytexModel.xcdivef" />
+    <EntitySet Name="xuarttip" EntityType="skytexModel.xuarttip" />
+    <EntitySet Name="xufolios" EntityType="skytexModel.xufolios" />
+    <FunctionImport Name="qcomarea1" ReturnType="Collection(String)">
+      <Parameter Name="ef_cve" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="qcomare1" ReturnType="Collection(skytexModel.qcomare1_Result)">
+      <Parameter Name="ef_cve" Mode="In" Type="String" />
+      <Parameter Name="prg_cve" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="sp_HoraFin" ReturnType="Collection(String)">
+      <Parameter Name="fecha" Mode="In" Type="DateTime" />
+      <Parameter Name="tipo_doc" Mode="In" Type="String" />
+      <Parameter Name="refer" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="qcomFiltra" ReturnType="Collection(String)">
+      <Parameter Name="tipo_doc" Mode="In" Type="String" />
+      <Parameter Name="refer" Mode="In" Type="String" />
+      <Parameter Name="fechaCita" Mode="In" Type="DateTime" />
+    </FunctionImport>
+    <FunctionImport Name="sp_FiltraHoraSalida" ReturnType="Collection(skytexModel.sp_FiltraHoraSalida_Result)">
+      <Parameter Name="tipdoc_cve" Mode="In" Type="String" />
+      <Parameter Name="fecha" Mode="In" Type="DateTime" />
+      <Parameter Name="refer" Mode="In" Type="String" />
+      <Parameter Name="horaE" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="qcomhora1" ReturnType="Collection(skytexModel.qcomhora1_Result)">
+      <Parameter Name="tipdoc_cve" Mode="In" Type="String" />
+      <Parameter Name="fecha" Mode="In" Type="DateTime" />
+      <Parameter Name="refer" Mode="In" Type="String" />
+      <Parameter Name="ef_cve" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="sp_InsertarDetalleCitas" ReturnType="Collection(skytexModel.sp_InsertarDetalleCitas_Result)">
+      <Parameter Name="ef_cve" Mode="In" Type="String" />
+      <Parameter Name="tipo_doc" Mode="In" Type="String" />
+      <Parameter Name="num_fol" Mode="In" Type="Int32" />
+      <Parameter Name="desc_op" Mode="In" Type="String" />
+      <Parameter Name="lote_num" Mode="In" Type="String" />
+      <Parameter Name="lote_fec" Mode="In" Type="DateTime" />
+      <Parameter Name="art_tip" Mode="In" Type="String" />
+      <Parameter Name="sku_cve" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="qcomWebHora" ReturnType="Collection(skytexModel.qcomWebHora_Result)">
+      <Parameter Name="tipdoc_cve" Mode="In" Type="String" />
+      <Parameter Name="fecha" Mode="In" Type="DateTime" />
+      <Parameter Name="refer" Mode="In" Type="String" />
+      <Parameter Name="hora" Mode="In" Type="String" />
+      <Parameter Name="ef_cve" Mode="In" Type="String" />
+      <Parameter Name="Id_pant" Mode="In" Type="Int16" />
+      <Parameter Name="fec_salida" Mode="In" Type="DateTime" />
+    </FunctionImport>
+    <FunctionImport Name="sp_ConsCitasCalendario" ReturnType="Collection(skytexModel.sp_ConsCitasCalendario_Result)" />
+    <FunctionImport Name="sp_AutValCita" ReturnType="Collection(skytexModel.sp_AutValCita_Result)">
+      <Parameter Name="ef_cve" Mode="In" Type="String" />
+      <Parameter Name="tipo_doc" Mode="In" Type="String" />
+      <Parameter Name="num_fol" Mode="In" Type="Int32" />
+      <Parameter Name="cve_status" Mode="In" Type="Int32" />
+      <Parameter Name="sw_terminado" Mode="In" Type="Int32" />
+      <Parameter Name="sw_si_no" Mode="In" Type="Int32" />
+      <Parameter Name="id_ultact" Mode="In" Type="String" />
+      <Parameter Name="obs" Mode="In" Type="String" />
+      <Parameter Name="fec_ultact" Mode="In" Type="DateTime" />
+      <Parameter Name="fec_prom" Mode="In" Type="DateTime" />
+      <Parameter Name="refer" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="sp_InsertarEncabezadoCitas" ReturnType="Collection(skytexModel.sp_InsertarEncabezadoCitas_Result)">
+      <Parameter Name="ef_cve" Mode="In" Type="String" />
+      <Parameter Name="tipdoc_cve" Mode="In" Type="String" />
+      <Parameter Name="fec_ultact" Mode="In" Type="DateTime" />
+      <Parameter Name="fec_prom" Mode="In" Type="DateTime" />
+      <Parameter Name="imp_letra" Mode="In" Type="String" />
+      <Parameter Name="fec_letra" Mode="In" Type="String" />
+      <Parameter Name="refer" Mode="In" Type="String" />
+      <Parameter Name="id_ultact" Mode="In" Type="String" />
+      <Parameter Name="plazo" Mode="In" Type="Int16" />
+      <Parameter Name="suc_aten" Mode="In" Type="String" />
+      <Parameter Name="obs" Mode="In" Type="String" />
+      <Parameter Name="pr5" Mode="In" Type="String" />
+      <Parameter Name="pr1" Mode="In" Type="String" />
+      <Parameter Name="uuid" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="sp_consCitas" ReturnType="Collection(skytexModel.sp_consCitas_Result)">
+      <Parameter Name="tipdoc_cve" Mode="In" Type="String" />
+      <Parameter Name="opc" Mode="In" Type="String" />
+      <Parameter Name="user_cve" Mode="In" Type="String" />
+      <Parameter Name="fecha" Mode="In" Type="DateTime" />
+    </FunctionImport>
+    <FunctionImport Name="qcomWebHoraReagenda" ReturnType="Collection(skytexModel.qcomWebHoraReagenda_Result)">
+      <Parameter Name="tipdoc_cve" Mode="In" Type="String" />
+      <Parameter Name="fecha" Mode="In" Type="String" />
+      <Parameter Name="refer" Mode="In" Type="String" />
+      <Parameter Name="hora" Mode="In" Type="String" />
+      <Parameter Name="ef_cve" Mode="In" Type="String" />
+      <Parameter Name="Id_pant" Mode="In" Type="Int16" />
+      <Parameter Name="fec_salida" Mode="In" Type="String" />
+      <Parameter Name="num_fol" Mode="In" Type="Int32" />
+    </FunctionImport>
+  </EntityContainer>
+  <ComplexType Name="sp_webAppSalaCbo_Result">
+    <Property Type="String" Name="resultado" Nullable="false" MaxLength="25" />
+    <Property Type="String" Name="clave" Nullable="false" MaxLength="7" />
+  </ComplexType>
+  <EntityType Name="xcdconapl_cl">
+    <Key>
+      <PropertyRef Name="tipdoc_cve" />
+      <PropertyRef Name="sp_cve" />
+      <PropertyRef Name="num_reng" />
+      <PropertyRef Name="spd_cve" />
+    </Key>
+    <Property Name="tipdoc_cve" Type="String" Nullable="false" MaxLength="6" FixedLength="true" Unicode="true" />
+    <Property Name="sp_cve" Type="String" Nullable="false" MaxLength="25" FixedLength="false" Unicode="true" />
+    <Property Name="num_reng" Type="Int16" Nullable="false" />
+    <Property Name="spd_cve" Type="String" Nullable="false" MaxLength="25" FixedLength="false" Unicode="true" />
+    <Property Name="prm1" Type="String" MaxLength="6" FixedLength="true" Unicode="true" />
+    <Property Name="prm2" Type="String" MaxLength="6" FixedLength="true" Unicode="true" />
+    <Property Name="prm3" Type="String" MaxLength="6" FixedLength="true" Unicode="true" />
+    <Property Name="prm4" Type="String" MaxLength="6" FixedLength="true" Unicode="true" />
+    <Property Name="prm5" Type="String" MaxLength="6" FixedLength="true" Unicode="true" />
+    <Property Name="prm6" Type="String" MaxLength="25" FixedLength="false" Unicode="true" />
+    <Property Name="prm7" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+    <Property Name="prm8" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+    <Property Name="prm9" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+    <Property Name="prm10" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+    <Property Name="prm11" Type="String" MaxLength="6" FixedLength="true" Unicode="true" />
+    <Property Name="prm12" Type="String" MaxLength="3" FixedLength="true" Unicode="true" />
+    <Property Name="prm13" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+    <Property Name="prm14" Type="Int16" />
+    <Property Name="prm15" Type="Decimal" Precision="19" Scale="4" />
+    <Property Name="prm16" Type="String" MaxLength="6" FixedLength="true" Unicode="true" />
+  </EntityType>
+  <ComplexType Name="qcomsala1_Result">
+    <Property Type="String" Name="spd_cve" Nullable="false" MaxLength="25" />
+    <Property Type="String" Name="prm1" Nullable="true" MaxLength="6" />
+  </ComplexType>
+  <ComplexType Name="qcomtiptra1_Result">
+    <Property Type="String" Name="spd_cve" Nullable="false" MaxLength="25" />
+    <Property Type="String" Name="prm1" Nullable="true" MaxLength="6" />
+  </ComplexType>
+  <EntityType Name="itmov">
+    <Key>
+      <PropertyRef Name="ef_cve" />
+      <PropertyRef Name="num_fol" />
+      <PropertyRef Name="tipo_doc" />
+    </Key>
+    <Property Name="ef_cve" Type="String" Nullable="false" MaxLength="3" FixedLength="true" Unicode="true" />
+    <Property Name="div_cve" Type="String" Nullable="false" MaxLength="3" FixedLength="true" Unicode="true" />
+    <Property Name="cc_tipo" Type="String" Nullable="false" MaxLength="1" FixedLength="true" Unicode="true" />
+    <Property Name="cc_cve" Type="String" Nullable="false" MaxLength="6" FixedLength="true" Unicode="true" />
+    <Property Name="alm_cve" Type="String" Nullable="false" MaxLength="3" FixedLength="true" Unicode="true" />
+    <Property Name="ven_cve" Type="String" MaxLength="6" FixedLength="true" Unicode="true" />
+    <Property Name="num_fol" Type="Int32" Nullable="false" />
+    <Property Name="tot_reng" Type="Int16" Nullable="false" />
+    <Property Name="tipo_doc" Type="String" Nullable="false" MaxLength="6" FixedLength="true" Unicode="true" />
+    <Property Name="ef_cvep" Type="String" MaxLength="3" FixedLength="true" Unicode="true" />
+    <Property Name="num_folp" Type="Int32" />
+    <Property Name="tipo_docp" Type="String" MaxLength="6" FixedLength="true" Unicode="true" />
+    <Property Name="refer" Type="String" MaxLength="20" FixedLength="false" Unicode="true" />
+    <Property Name="fec_mov" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="fec_ultact" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="id_ultact" Type="String" Nullable="false" MaxLength="3" FixedLength="true" Unicode="true" />
+    <Property Name="foremb_cve" Type="String" MaxLength="6" FixedLength="true" Unicode="true" />
+    <Property Name="pct_desc" Type="Decimal" Nullable="false" Precision="7" Scale="4" />
+    <Property Name="tm" Type="String" MaxLength="3" FixedLength="true" Unicode="true" />
+    <Property Name="tc" Type="Decimal" Nullable="false" Precision="12" Scale="6" />
+    <Property Name="total" Type="Decimal" Nullable="false" Precision="19" Scale="4" />
+    <Property Name="iva" Type="Decimal" Nullable="false" Precision="19" Scale="4" />
+    <Property Name="ieps" Type="Decimal" Nullable="false" Precision="19" Scale="4" />
+    <Property Name="obs" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="pct_canacp" Type="Decimal" Nullable="false" Precision="7" Scale="4" />
+    <Property Name="fec_prom" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="sw_facpar" Type="Boolean" Nullable="false" />
+    <Property Name="sw_entpar" Type="Boolean" Nullable="false" />
+    <Property Name="forpag_cve" Type="String" MaxLength="3" FixedLength="true" Unicode="true" />
+    <Property Name="fob_cve" Type="String" MaxLength="6" FixedLength="true" Unicode="true" />
+    <Property Name="cf_cve" Type="String" MaxLength="6" FixedLength="true" Unicode="true" />
+    <Property Name="cif_cve" Type="String" MaxLength="6" FixedLength="true" Unicode="true" />
+    <Property Name="dest_cve" Type="String" MaxLength="6" FixedLength="true" Unicode="true" />
+    <Property Name="sw_transp" Type="String" Nullable="false" MaxLength="6" FixedLength="true" Unicode="true" />
+    <Property Name="cf_flete" Type="Decimal" Nullable="false" Precision="19" Scale="4" />
+    <Property Name="cif_flete" Type="Decimal" Nullable="false" Precision="19" Scale="4" />
+    <Property Name="seguro" Type="Decimal" Nullable="false" Precision="19" Scale="4" />
+    <Property Name="num_guia" Type="String" MaxLength="20" FixedLength="false" Unicode="true" />
+    <Property Name="contenedor" Type="String" MaxLength="20" FixedLength="false" Unicode="true" />
+    <Property Name="no_bultos" Type="Decimal" Nullable="false" Precision="19" Scale="4" />
+    <Property Name="tie_trans" Type="Decimal" Nullable="false" Precision="19" Scale="4" />
+    <Property Name="plazo_pp" Type="Int16" Nullable="false" />
+    <Property Name="pct_descpp" Type="Decimal" Nullable="false" Precision="7" Scale="4" />
+    <Property Name="sw_impdia" Type="Boolean" Nullable="false" />
+    <Property Name="sw_consolida" Type="Boolean" Nullable="false" />
+    <Property Name="dato1" Type="Decimal" Nullable="false" Precision="19" Scale="4" />
+    <Property Name="dato2" Type="Decimal" Nullable="false" Precision="19" Scale="4" />
+    <Property Name="dato3" Type="Decimal" Nullable="false" Precision="19" Scale="4" />
+    <Property Name="dato4" Type="Decimal" Nullable="false" Precision="19" Scale="4" />
+    <Property Name="dato5" Type="Decimal" Nullable="false" Precision="19" Scale="4" />
+    <Property Name="dato6" Type="Decimal" Nullable="false" Precision="19" Scale="4" />
+    <Property Name="dato7" Type="Decimal" Nullable="false" Precision="19" Scale="4" />
+    <Property Name="dato8" Type="Decimal" Nullable="false" Precision="19" Scale="4" />
+    <Property Name="dato9" Type="Decimal" Nullable="false" Precision="19" Scale="4" />
+    <Property Name="dato10" Type="Decimal" Nullable="false" Precision="19" Scale="4" />
+    <Property Name="ven_tipo" Type="String" MaxLength="1" FixedLength="true" Unicode="true" />
+    <Property Name="foremb_tipo" Type="String" MaxLength="1" FixedLength="true" Unicode="true" />
+    <Property Name="plazo" Type="Int16" />
+    <Property Name="sw_impexp" Type="Boolean" Nullable="false" />
+    <Property Name="suc_cve" Type="String" MaxLength="3" FixedLength="true" Unicode="true" />
+    <Property Name="suc_aten" Type="String" MaxLength="25" FixedLength="false" Unicode="true" />
+    <Property Name="imp_letra" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+    <Property Name="fec_letra" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+  </EntityType>
+  <EntityType Name="xcdivef">
+    <Key>
+      <PropertyRef Name="ef_cve" />
+      <PropertyRef Name="div_cve" />
+    </Key>
+    <Property Name="ef_cve" Type="String" Nullable="false" MaxLength="3" FixedLength="true" Unicode="true" />
+    <Property Name="div_cve" Type="String" Nullable="false" MaxLength="3" FixedLength="true" Unicode="true" />
+    <Property Name="nombre" Type="String" Nullable="false" MaxLength="40" FixedLength="false" Unicode="true" />
+    <Property Name="bgt_grp" Type="String" MaxLength="40" FixedLength="false" Unicode="true" />
+    <Property Name="bgt_sgrp" Type="String" MaxLength="40" FixedLength="false" Unicode="true" />
+    <Property Name="div_grp" Type="String" MaxLength="3" FixedLength="true" Unicode="true" />
+    <Property Name="status" Type="Boolean" />
+  </EntityType>
+  <EntityType Name="xuarttip">
+    <Key>
+      <PropertyRef Name="prg_cve" />
+      <PropertyRef Name="art_tip" />
+    </Key>
+    <Property Name="prg_cve" Type="String" Nullable="false" MaxLength="15" FixedLength="false" Unicode="true" />
+    <Property Name="art_tip" Type="String" Nullable="false" MaxLength="3" FixedLength="true" Unicode="true" />
+  </EntityType>
+  <EntityType Name="xufolios">
+    <Key>
+      <PropertyRef Name="ef_cve" />
+      <PropertyRef Name="tipdoc_cve" />
+    </Key>
+    <Property Name="ef_cve" Type="String" Nullable="false" MaxLength="3" FixedLength="true" Unicode="true" />
+    <Property Name="tipdoc_cve" Type="String" Nullable="false" MaxLength="6" FixedLength="true" Unicode="true" />
+    <Property Name="ult_fol" Type="Int32" Nullable="false" />
+    <Property Name="sp1" Type="String" Nullable="false" MaxLength="255" FixedLength="true" Unicode="false" />
+    <Property Name="sp2" Type="String" Nullable="false" MaxLength="255" FixedLength="true" Unicode="false" />
+    <Property Name="sp3" Type="String" Nullable="false" MaxLength="255" FixedLength="true" Unicode="false" />
+    <Property Name="sp4" Type="String" Nullable="false" MaxLength="255" FixedLength="true" Unicode="false" />
+    <Property Name="sp5" Type="String" Nullable="false" MaxLength="255" FixedLength="true" Unicode="false" />
+    <Property Name="sp6" Type="String" Nullable="false" MaxLength="255" FixedLength="true" Unicode="false" />
+    <Property Name="sp7" Type="String" Nullable="false" MaxLength="255" FixedLength="true" Unicode="false" />
+    <Property Name="sp8" Type="String" Nullable="false" MaxLength="162" FixedLength="true" Unicode="false" />
+  </EntityType>
+  <ComplexType Name="qcomare1_Result">
+    <Property Type="String" Name="nombre" Nullable="false" MaxLength="40" />
+    <Property Type="String" Name="clave" Nullable="false" MaxLength="3" />
+  </ComplexType>
+  <ComplexType Name="sp_FiltraHoraSalida_Result">
+    <Property Type="String" Name="spd_cve" Nullable="false" MaxLength="25" />
+    <Property Type="String" Name="prm1" Nullable="true" MaxLength="6" />
+  </ComplexType>
+  <ComplexType Name="qcomhora1_Result">
+    <Property Type="String" Name="horasDisp" Nullable="true" MaxLength="5" />
+    <Property Type="String" Name="prm1" Nullable="false" MaxLength="25" />
+  </ComplexType>
+  <ComplexType Name="sp_InsertarDetalleCitas_Result">
+    <Property Type="String" Name="mensaje" Nullable="true" MaxLength="25" />
+    <Property Type="Int32" Name="error" Nullable="true" />
+  </ComplexType>
+  <ComplexType Name="qcomWebHora_Result">
+    <Property Type="String" Name="Hora" Nullable="true" MaxLength="5" />
+    <Property Type="String" Name="Clave" Nullable="true" MaxLength="5" />
+  </ComplexType>
+  <ComplexType Name="sp_ConsCitasCalendario_Result">
+    <Property Type="String" Name="ef_cve" Nullable="false" MaxLength="3" />
+    <Property Type="String" Name="tipdoc_cve" Nullable="false" MaxLength="6" />
+    <Property Type="Int32" Name="num_fol" Nullable="false" />
+    <Property Type="Int16" Name="cve_status" Nullable="false" />
+    <Property Type="String" Name="nombre" Nullable="false" MaxLength="25" />
+    <Property Type="Int16" Name="sw_terminado" Nullable="false" />
+    <Property Type="Int16" Name="sw_si_no" Nullable="false" />
+    <Property Type="String" Name="id_ultact" Nullable="false" MaxLength="3" />
+    <Property Type="String" Name="imp_letra" Nullable="false" MaxLength="255" />
+    <Property Type="String" Name="refer" Nullable="true" MaxLength="20" />
+    <Property Type="DateTime" Name="fec_ultact" Nullable="false" Precision="23" />
+    <Property Type="DateTime" Name="fec_prom" Nullable="false" Precision="23" />
+    <Property Type="String" Name="spd_cve" Nullable="false" MaxLength="25" />
+  </ComplexType>
+  <ComplexType Name="sp_AutValCita_Result">
+    <Property Type="String" Name="mensaje" Nullable="true" />
+    <Property Type="Int32" Name="error" Nullable="true" />
+  </ComplexType>
+  <ComplexType Name="sp_InsertarEncabezadoCitas_Result">
+    <Property Type="String" Name="mensaje" Nullable="true" />
+    <Property Type="Int32" Name="error" Nullable="true" />
+  </ComplexType>
+  <ComplexType Name="sp_consCitas_Result">
+    <Property Type="String" Name="fec_letra" Nullable="true" MaxLength="255" />
+    <Property Type="String" Name="tipdoc_cve" Nullable="false" MaxLength="6" />
+    <Property Type="Int32" Name="num_fol" Nullable="false" />
+    <Property Type="Int16" Name="cve_status" Nullable="false" />
+    <Property Type="String" Name="nombre" Nullable="false" MaxLength="25" />
+    <Property Type="Int16" Name="sw_terminado" Nullable="false" />
+    <Property Type="Int16" Name="sw_si_no" Nullable="false" />
+    <Property Type="String" Name="id_ultact" Nullable="false" MaxLength="3" />
+    <Property Type="DateTime" Name="fec_ultactI" Nullable="false" Precision="23" />
+    <Property Type="String" Name="imp_letra" Nullable="false" MaxLength="255" />
+    <Property Type="String" Name="refer" Nullable="true" MaxLength="20" />
+    <Property Type="String" Name="spd_cve" Nullable="false" MaxLength="25" />
+    <Property Type="DateTime" Name="fec_ultact" Nullable="false" Precision="23" />
+    <Property Type="DateTime" Name="fec_prom" Nullable="false" Precision="23" />
+  </ComplexType>
+  <ComplexType Name="qcomWebHoraReagenda_Result">
+    <Property Type="String" Name="Hora" Nullable="true" MaxLength="5" />
+    <Property Type="String" Name="Clave" Nullable="true" MaxLength="5" />
+  </ComplexType>
+</Schema>
