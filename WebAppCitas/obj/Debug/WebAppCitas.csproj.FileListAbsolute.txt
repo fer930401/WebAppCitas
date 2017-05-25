@@ -1,0 +1,108 @@
+C:\Users\geovana.contreras\Desktop\WebAppCitas\WebAppCitas\WebAppCitas\bin\WebAppCitas.dll.config
+C:\Users\geovana.contreras\Desktop\WebAppCitas\WebAppCitas\WebAppCitas\bin\WebAppCitas.dll
+C:\Users\geovana.contreras\Desktop\WebAppCitas\WebAppCitas\WebAppCitas\bin\WebAppCitas.pdb
+C:\Users\geovana.contreras\Desktop\WebAppCitas\WebAppCitas\WebAppCitas\obj\Debug\WebAppCitas.csprojResolveAssemblyReference.cache
+C:\Users\geovana.contreras\Desktop\WebAppCitas\WebAppCitas\WebAppCitas\obj\Debug\WebAppCitas.dll
+C:\Users\geovana.contreras\Desktop\WebAppCitas\WebAppCitas\WebAppCitas\obj\Debug\WebAppCitas.pdb
+C:\Users\isai.meza\Documents\WebAppCitas\WebAppCitas\bin\WebAppCitas.dll
+C:\Users\isai.meza\Documents\WebAppCitas\WebAppCitas\bin\WebAppCitas.pdb
+C:\Users\isai.meza\Documents\WebAppCitas\WebAppCitas\bin\Entidades.dll
+C:\Users\isai.meza\Documents\WebAppCitas\WebAppCitas\bin\LogicaNegocio.dll
+C:\Users\isai.meza\Documents\WebAppCitas\WebAppCitas\bin\AccesoDatos.dll
+C:\Users\isai.meza\Documents\WebAppCitas\WebAppCitas\bin\EntityFramework.dll
+C:\Users\isai.meza\Documents\WebAppCitas\WebAppCitas\bin\Entidades.pdb
+C:\Users\isai.meza\Documents\WebAppCitas\WebAppCitas\bin\LogicaNegocio.pdb
+C:\Users\isai.meza\Documents\WebAppCitas\WebAppCitas\bin\AccesoDatos.pdb
+C:\Users\isai.meza\Documents\WebAppCitas\WebAppCitas\bin\EntityFramework.xml
+C:\Users\isai.meza\Documents\WebAppCitas\WebAppCitas\obj\Debug\WebAppCitas.csprojResolveAssemblyReference.cache
+C:\Users\isai.meza\Documents\WebAppCitas\WebAppCitas\obj\Debug\WebAppCitas.dll
+C:\Users\isai.meza\Documents\WebAppCitas\WebAppCitas\obj\Debug\WebAppCitas.pdb
+C:\Users\isai.meza\Documents\WebAppCitas\WebAppCitas\bin\WebAppCitas.dll.config
+C:\Users\isai.meza\Documents\resp\WebAppCitas\WebAppCitas\bin\WebAppCitas.dll.config
+C:\Users\isai.meza\Documents\resp\WebAppCitas\WebAppCitas\bin\WebAppCitas.dll
+C:\Users\isai.meza\Documents\resp\WebAppCitas\WebAppCitas\bin\WebAppCitas.pdb
+C:\Users\isai.meza\Documents\resp\WebAppCitas\WebAppCitas\bin\Entidades.dll
+C:\Users\isai.meza\Documents\resp\WebAppCitas\WebAppCitas\bin\LogicaNegocio.dll
+C:\Users\isai.meza\Documents\resp\WebAppCitas\WebAppCitas\bin\AccesoDatos.dll
+C:\Users\isai.meza\Documents\resp\WebAppCitas\WebAppCitas\bin\EntityFramework.dll
+C:\Users\isai.meza\Documents\resp\WebAppCitas\WebAppCitas\bin\Entidades.pdb
+C:\Users\isai.meza\Documents\resp\WebAppCitas\WebAppCitas\bin\LogicaNegocio.pdb
+C:\Users\isai.meza\Documents\resp\WebAppCitas\WebAppCitas\bin\AccesoDatos.pdb
+C:\Users\isai.meza\Documents\resp\WebAppCitas\WebAppCitas\bin\EntityFramework.xml
+C:\Users\isai.meza\Documents\resp\WebAppCitas\WebAppCitas\obj\Debug\WebAppCitas.csprojResolveAssemblyReference.cache
+C:\Users\isai.meza\Documents\resp\WebAppCitas\WebAppCitas\obj\Debug\WebAppCitas.dll
+C:\Users\isai.meza\Documents\resp\WebAppCitas\WebAppCitas\obj\Debug\WebAppCitas.pdb
+C:\Users\isai.meza\Documents\03-11-16\WebAppCitas\WebAppCitas\bin\WebAppCitas.dll.config
+C:\Users\isai.meza\Documents\03-11-16\WebAppCitas\WebAppCitas\bin\WebAppCitas.dll
+C:\Users\isai.meza\Documents\03-11-16\WebAppCitas\WebAppCitas\bin\WebAppCitas.pdb
+C:\Users\isai.meza\Documents\03-11-16\WebAppCitas\WebAppCitas\bin\Entidades.dll
+C:\Users\isai.meza\Documents\03-11-16\WebAppCitas\WebAppCitas\bin\LogicaNegocio.dll
+C:\Users\isai.meza\Documents\03-11-16\WebAppCitas\WebAppCitas\bin\AccesoDatos.dll
+C:\Users\isai.meza\Documents\03-11-16\WebAppCitas\WebAppCitas\bin\EntityFramework.dll
+C:\Users\isai.meza\Documents\03-11-16\WebAppCitas\WebAppCitas\bin\Entidades.pdb
+C:\Users\isai.meza\Documents\03-11-16\WebAppCitas\WebAppCitas\bin\LogicaNegocio.pdb
+C:\Users\isai.meza\Documents\03-11-16\WebAppCitas\WebAppCitas\bin\AccesoDatos.pdb
+C:\Users\isai.meza\Documents\03-11-16\WebAppCitas\WebAppCitas\bin\EntityFramework.xml
+C:\Users\isai.meza\Documents\03-11-16\WebAppCitas\WebAppCitas\obj\Debug\WebAppCitas.csprojResolveAssemblyReference.cache
+C:\Users\isai.meza\Documents\03-11-16\WebAppCitas\WebAppCitas\obj\Debug\WebAppCitas.dll
+C:\Users\isai.meza\Documents\03-11-16\WebAppCitas\WebAppCitas\obj\Debug\WebAppCitas.pdb
+C:\Users\isai.meza\Documents\resp 8_2\03-11-16\WebAppCitas\WebAppCitas\bin\WebAppCitas.dll.config
+C:\Users\isai.meza\Documents\resp 8_2\03-11-16\WebAppCitas\WebAppCitas\bin\WebAppCitas.dll
+C:\Users\isai.meza\Documents\resp 8_2\03-11-16\WebAppCitas\WebAppCitas\bin\WebAppCitas.pdb
+C:\Users\isai.meza\Documents\resp 8_2\03-11-16\WebAppCitas\WebAppCitas\bin\Entidades.dll
+C:\Users\isai.meza\Documents\resp 8_2\03-11-16\WebAppCitas\WebAppCitas\bin\LogicaNegocio.dll
+C:\Users\isai.meza\Documents\resp 8_2\03-11-16\WebAppCitas\WebAppCitas\bin\AccesoDatos.dll
+C:\Users\isai.meza\Documents\resp 8_2\03-11-16\WebAppCitas\WebAppCitas\bin\EntityFramework.dll
+C:\Users\isai.meza\Documents\resp 8_2\03-11-16\WebAppCitas\WebAppCitas\bin\Entidades.pdb
+C:\Users\isai.meza\Documents\resp 8_2\03-11-16\WebAppCitas\WebAppCitas\bin\LogicaNegocio.pdb
+C:\Users\isai.meza\Documents\resp 8_2\03-11-16\WebAppCitas\WebAppCitas\bin\AccesoDatos.pdb
+C:\Users\isai.meza\Documents\resp 8_2\03-11-16\WebAppCitas\WebAppCitas\bin\EntityFramework.xml
+C:\Users\isai.meza\Documents\resp 8_2\03-11-16\WebAppCitas\WebAppCitas\obj\Debug\WebAppCitas.csprojResolveAssemblyReference.cache
+C:\Users\isai.meza\Documents\resp 8_2\03-11-16\WebAppCitas\WebAppCitas\obj\Debug\WebAppCitas.dll
+C:\Users\isai.meza\Documents\resp 8_2\03-11-16\WebAppCitas\WebAppCitas\obj\Debug\WebAppCitas.pdb
+C:\Users\isai.meza\Documents\AppCitas_\03-11-16\WebAppCitas\WebAppCitas\bin\WebAppCitas.dll.config
+C:\Users\isai.meza\Documents\AppCitas_\03-11-16\WebAppCitas\WebAppCitas\bin\WebAppCitas.dll
+C:\Users\isai.meza\Documents\AppCitas_\03-11-16\WebAppCitas\WebAppCitas\bin\WebAppCitas.pdb
+C:\Users\isai.meza\Documents\AppCitas_\03-11-16\WebAppCitas\WebAppCitas\bin\Entidades.dll
+C:\Users\isai.meza\Documents\AppCitas_\03-11-16\WebAppCitas\WebAppCitas\bin\LogicaNegocio.dll
+C:\Users\isai.meza\Documents\AppCitas_\03-11-16\WebAppCitas\WebAppCitas\bin\AccesoDatos.dll
+C:\Users\isai.meza\Documents\AppCitas_\03-11-16\WebAppCitas\WebAppCitas\bin\EntityFramework.dll
+C:\Users\isai.meza\Documents\AppCitas_\03-11-16\WebAppCitas\WebAppCitas\bin\Entidades.pdb
+C:\Users\isai.meza\Documents\AppCitas_\03-11-16\WebAppCitas\WebAppCitas\bin\LogicaNegocio.pdb
+C:\Users\isai.meza\Documents\AppCitas_\03-11-16\WebAppCitas\WebAppCitas\bin\AccesoDatos.pdb
+C:\Users\isai.meza\Documents\AppCitas_\03-11-16\WebAppCitas\WebAppCitas\bin\EntityFramework.xml
+C:\Users\isai.meza\Documents\AppCitas_\03-11-16\WebAppCitas\WebAppCitas\obj\Debug\WebAppCitas.csprojResolveAssemblyReference.cache
+C:\Users\isai.meza\Documents\AppCitas_\03-11-16\WebAppCitas\WebAppCitas\obj\Debug\WebAppCitas.dll
+C:\Users\isai.meza\Documents\AppCitas_\03-11-16\WebAppCitas\WebAppCitas\obj\Debug\WebAppCitas.pdb
+C:\Users\geovana.contreras\Documents\Visual Studio 2013\Projects\WebAppCitas\WebAppCitas\bin\WebAppCitas.dll.config
+C:\Users\geovana.contreras\Documents\Visual Studio 2013\Projects\WebAppCitas\WebAppCitas\bin\WebAppCitas.dll
+C:\Users\geovana.contreras\Documents\Visual Studio 2013\Projects\WebAppCitas\WebAppCitas\bin\WebAppCitas.pdb
+C:\Users\geovana.contreras\Documents\Visual Studio 2013\Projects\WebAppCitas\WebAppCitas\bin\Entidades.dll
+C:\Users\geovana.contreras\Documents\Visual Studio 2013\Projects\WebAppCitas\WebAppCitas\bin\LogicaNegocio.dll
+C:\Users\geovana.contreras\Documents\Visual Studio 2013\Projects\WebAppCitas\WebAppCitas\bin\AccesoDatos.dll
+C:\Users\geovana.contreras\Documents\Visual Studio 2013\Projects\WebAppCitas\WebAppCitas\bin\EntityFramework.dll
+C:\Users\geovana.contreras\Documents\Visual Studio 2013\Projects\WebAppCitas\WebAppCitas\bin\Entidades.pdb
+C:\Users\geovana.contreras\Documents\Visual Studio 2013\Projects\WebAppCitas\WebAppCitas\bin\LogicaNegocio.pdb
+C:\Users\geovana.contreras\Documents\Visual Studio 2013\Projects\WebAppCitas\WebAppCitas\bin\AccesoDatos.pdb
+C:\Users\geovana.contreras\Documents\Visual Studio 2013\Projects\WebAppCitas\WebAppCitas\bin\EntityFramework.xml
+C:\Users\geovana.contreras\Documents\Visual Studio 2013\Projects\WebAppCitas\WebAppCitas\obj\Debug\WebAppCitas.csprojResolveAssemblyReference.cache
+C:\Users\geovana.contreras\Documents\Visual Studio 2013\Projects\WebAppCitas\WebAppCitas\obj\Debug\RdlCompile.cache
+C:\Users\geovana.contreras\Documents\Visual Studio 2013\Projects\WebAppCitas\WebAppCitas\obj\Debug\RdlCompile.compiled
+C:\Users\geovana.contreras\Documents\Visual Studio 2013\Projects\WebAppCitas\WebAppCitas\obj\Debug\WebAppCitas.dll
+C:\Users\geovana.contreras\Documents\Visual Studio 2013\Projects\WebAppCitas\WebAppCitas\obj\Debug\WebAppCitas.pdb
+C:\Users\fernando.garcia\Documents\Proyectos Skytex\WebAppCitas\WebAppCitas\bin\WebAppCitas.dll.config
+C:\Users\fernando.garcia\Documents\Proyectos Skytex\WebAppCitas\WebAppCitas\bin\WebAppCitas.dll
+C:\Users\fernando.garcia\Documents\Proyectos Skytex\WebAppCitas\WebAppCitas\bin\WebAppCitas.pdb
+C:\Users\fernando.garcia\Documents\Proyectos Skytex\WebAppCitas\WebAppCitas\bin\Entidades.dll
+C:\Users\fernando.garcia\Documents\Proyectos Skytex\WebAppCitas\WebAppCitas\bin\LogicaNegocio.dll
+C:\Users\fernando.garcia\Documents\Proyectos Skytex\WebAppCitas\WebAppCitas\bin\AccesoDatos.dll
+C:\Users\fernando.garcia\Documents\Proyectos Skytex\WebAppCitas\WebAppCitas\bin\EntityFramework.dll
+C:\Users\fernando.garcia\Documents\Proyectos Skytex\WebAppCitas\WebAppCitas\bin\Entidades.pdb
+C:\Users\fernando.garcia\Documents\Proyectos Skytex\WebAppCitas\WebAppCitas\bin\LogicaNegocio.pdb
+C:\Users\fernando.garcia\Documents\Proyectos Skytex\WebAppCitas\WebAppCitas\bin\AccesoDatos.pdb
+C:\Users\fernando.garcia\Documents\Proyectos Skytex\WebAppCitas\WebAppCitas\bin\EntityFramework.xml
+C:\Users\fernando.garcia\Documents\Proyectos Skytex\WebAppCitas\WebAppCitas\obj\Debug\WebAppCitas.csprojResolveAssemblyReference.cache
+C:\Users\fernando.garcia\Documents\Proyectos Skytex\WebAppCitas\WebAppCitas\obj\Debug\RdlCompile.cache
+C:\Users\fernando.garcia\Documents\Proyectos Skytex\WebAppCitas\WebAppCitas\obj\Debug\RdlCompile.compiled
+C:\Users\fernando.garcia\Documents\Proyectos Skytex\WebAppCitas\WebAppCitas\obj\Debug\WebAppCitas.dll
+C:\Users\fernando.garcia\Documents\Proyectos Skytex\WebAppCitas\WebAppCitas\obj\Debug\WebAppCitas.pdb

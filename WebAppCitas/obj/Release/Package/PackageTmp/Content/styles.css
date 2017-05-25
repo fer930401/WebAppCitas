@@ -1,0 +1,14 @@
+﻿
+.btnFA {
+    background-color: rgb(128, 128, 128);
+    color: #fff;
+}
+
+.btnFA:hover {
+    background-color: rgb(47, 46, 46);
+    color: #15a953;
+}
+
+.list-inline li {
+    margin-left: 20px;
+}

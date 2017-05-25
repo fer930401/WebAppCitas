@@ -1,0 +1,178 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit http://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <_PublishTargetUrl>C:\Users\fernando.garcia\Documents\Proyectos Skytex\WebAppCitas\CompiladoAPP</_PublishTargetUrl>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="AgendaCitas.aspx">
+      <publishTime>03/17/2017 17:11:38</publishTime>
+    </File>
+    <File Include="AgendarCita.aspx">
+      <publishTime>08/18/2016 09:39:36</publishTime>
+    </File>
+    <File Include="App_Code/Data/DataGeneratorCalendar.cs">
+      <publishTime>05/25/2016 00:00:00</publishTime>
+    </File>
+    <File Include="App_Code/Data/DataGeneratorGantt.cs">
+      <publishTime>05/25/2016 00:00:00</publishTime>
+    </File>
+    <File Include="App_Code/Data/DataGeneratorMonth.cs">
+      <publishTime>05/25/2016 00:00:00</publishTime>
+    </File>
+    <File Include="App_Code/Data/DataGeneratorScheduler.cs">
+      <publishTime>05/25/2016 00:00:00</publishTime>
+    </File>
+    <File Include="App_Code/Data/Hash.cs">
+      <publishTime>05/25/2016 00:00:00</publishTime>
+    </File>
+    <File Include="App_Code/Modal.cs">
+      <publishTime>05/25/2016 00:00:00</publishTime>
+    </File>
+    <File Include="bin/AccesoDatos.dll">
+      <publishTime>05/18/2017 07:06:45</publishTime>
+    </File>
+    <File Include="bin/AjaxControlToolkit.dll">
+      <publishTime>06/03/2014 07:47:20</publishTime>
+    </File>
+    <File Include="bin/DayPilot.dll">
+      <publishTime>05/25/2016 00:00:00</publishTime>
+    </File>
+    <File Include="bin/Entidades.dll">
+      <publishTime>03/06/2017 11:21:29</publishTime>
+    </File>
+    <File Include="bin/EntityFramework.dll">
+      <publishTime>02/28/2017 15:51:18</publishTime>
+    </File>
+    <File Include="bin/EntityFramework.SqlServer.dll">
+      <publishTime>02/28/2017 15:51:18</publishTime>
+    </File>
+    <File Include="bin/LogicaNegocio.dll">
+      <publishTime>05/18/2017 07:06:46</publishTime>
+    </File>
+    <File Include="bin/WebAppCitas.dll">
+      <publishTime>05/18/2017 07:06:47</publishTime>
+    </File>
+    <File Include="bin/WebAppCitas.dll.config">
+      <publishTime>05/17/2017 17:30:03</publishTime>
+    </File>
+    <File Include="Citas.Master">
+      <publishTime>03/13/2017 10:22:57</publishTime>
+    </File>
+    <File Include="Content/bootstrap-theme.css">
+      <publishTime>08/04/2016 11:39:42</publishTime>
+    </File>
+    <File Include="Content/bootstrap-theme.css.map">
+      <publishTime>08/04/2016 11:39:42</publishTime>
+    </File>
+    <File Include="Content/bootstrap-theme.min.css">
+      <publishTime>08/04/2016 11:39:42</publishTime>
+    </File>
+    <File Include="Content/bootstrap-theme.min.css.map">
+      <publishTime>08/04/2016 11:39:42</publishTime>
+    </File>
+    <File Include="Content/bootstrap.css">
+      <publishTime>02/21/2017 08:25:53</publishTime>
+    </File>
+    <File Include="Content/bootstrap.css.map">
+      <publishTime>08/04/2016 11:39:42</publishTime>
+    </File>
+    <File Include="Content/bootstrap.min.css">
+      <publishTime>08/04/2016 12:22:42</publishTime>
+    </File>
+    <File Include="Content/bootstrap.min.css.map">
+      <publishTime>08/04/2016 11:39:42</publishTime>
+    </File>
+    <File Include="Content/cover.css">
+      <publishTime>10/22/2016 11:38:40</publishTime>
+    </File>
+    <File Include="Content/scheduler_8.css">
+      <publishTime>08/08/2016 16:25:20</publishTime>
+    </File>
+    <File Include="Content/styles.css">
+      <publishTime>10/22/2016 13:02:34</publishTime>
+    </File>
+    <File Include="fonts/glyphicons-halflings-regular.eot">
+      <publishTime>08/04/2016 11:39:42</publishTime>
+    </File>
+    <File Include="fonts/glyphicons-halflings-regular.svg">
+      <publishTime>08/04/2016 11:39:42</publishTime>
+    </File>
+    <File Include="fonts/glyphicons-halflings-regular.ttf">
+      <publishTime>08/04/2016 11:39:42</publishTime>
+    </File>
+    <File Include="fonts/glyphicons-halflings-regular.woff">
+      <publishTime>08/04/2016 11:39:42</publishTime>
+    </File>
+    <File Include="fonts/glyphicons-halflings-regular.woff2">
+      <publishTime>08/04/2016 11:39:42</publishTime>
+    </File>
+    <File Include="Global.asax">
+      <publishTime>08/03/2016 16:08:08</publishTime>
+    </File>
+    <File Include="Login.aspx">
+      <publishTime>03/08/2017 13:12:08</publishTime>
+    </File>
+    <File Include="Media/logoSkytexB.png">
+      <publishTime>03/08/2016 13:43:16</publishTime>
+    </File>
+    <File Include="Media/logo_skytex.png">
+      <publishTime>02/05/2016 13:24:18</publishTime>
+    </File>
+    <File Include="Media/skytex.ico">
+      <publishTime>01/30/2016 13:12:02</publishTime>
+    </File>
+    <File Include="NuevaCita.aspx">
+      <publishTime>03/10/2017 17:17:38</publishTime>
+    </File>
+    <File Include="NuevasCita.aspx">
+      <publishTime>03/10/2017 17:17:33</publishTime>
+    </File>
+    <File Include="packages.config">
+      <publishTime>02/28/2017 15:51:25</publishTime>
+    </File>
+    <File Include="PAD.aspx">
+      <publishTime>03/10/2017 17:17:21</publishTime>
+    </File>
+    <File Include="PAP.aspx">
+      <publishTime>03/10/2017 17:17:20</publishTime>
+    </File>
+    <File Include="PAS.aspx">
+      <publishTime>03/10/2017 17:17:19</publishTime>
+    </File>
+    <File Include="Pases.aspx">
+      <publishTime>01/28/2017 11:14:12</publishTime>
+    </File>
+    <File Include="PTP.aspx">
+      <publishTime>03/10/2017 17:17:17</publishTime>
+    </File>
+    <File Include="Scripts/bootstrap.js">
+      <publishTime>08/04/2016 11:39:42</publishTime>
+    </File>
+    <File Include="Scripts/bootstrap.min.js">
+      <publishTime>08/04/2016 11:39:42</publishTime>
+    </File>
+    <File Include="Scripts/custom.js">
+      <publishTime>08/12/2016 17:25:26</publishTime>
+    </File>
+    <File Include="Scripts/jquery-1.9.1.js">
+      <publishTime>08/04/2016 11:39:10</publishTime>
+    </File>
+    <File Include="Scripts/jquery-1.9.1.min.js">
+      <publishTime>08/04/2016 11:39:10</publishTime>
+    </File>
+    <File Include="Scripts/jquery-1.9.1.min.map">
+      <publishTime>08/04/2016 11:39:10</publishTime>
+    </File>
+    <File Include="Vigilancia.aspx">
+      <publishTime>08/18/2016 11:17:40</publishTime>
+    </File>
+    <File Include="Web.config">
+      <publishTime>05/18/2017 07:06:48</publishTime>
+    </File>
+  </ItemGroup>
+</Project>
