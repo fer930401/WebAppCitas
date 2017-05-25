@@ -1,0 +1,195 @@
+﻿
+<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Citas.master.cs" Inherits="WebAppCitas.Citas" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <meta charset="utf-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <title>Agenda Citas | Skytex</title>
+    <!-- asignacion de icono de barra de navegador -->
+    <link rel="shortcut icon" href="<%=ResolveUrl("~/Media/skytex.ico") %>" />
+    <!-- cargar de archivos de estilos -->
+    <!-- estilo de controles de la aplicacion -->
+    <link type="text/css" rel="stylesheet" href="<%=ResolveUrl("Content/bootstrap.css")%>" />
+    <!-- estilo para el grud de daypilot -->
+    <link type="text/css" rel="stylesheet" href="<%=ResolveUrl("Content/sezer.css")%>" />
+    <!-- estilo para el calendario a la izquierda del grid de daypilot -->
+    <link type="text/css" rel="stylesheet" href="<%=ResolveUrl("Content/navigator.css")%>" />
+    <!-- carga de archivos JS -->
+    <script type="text/javascript" src="<%= Page.ResolveClientUrl("Scripts/modal.js") %>"></script>
+    <script type="text/javascript" src="<%= ResolveUrl("Scripts/jquery-1.9.1.js") %>"></script>
+    <script type="text/javascript" src="<%= ResolveUrl("Scripts/bootstrap.js") %>"></script>   
+    <script type="text/javascript" src="<%= ResolveClientUrl("Scripts/jquery-1.9.1.js") %>"></script>
+    <script type="text/javascript" src="<%= ResolveClientUrl("Scripts/ie-emulation-modes-warning.js") %>"></script>
+    <script type="text/javascript" src="<%= ResolveClientUrl("Scripts/jquery.min.js") %>"></script>
+    <script type="text/javascript" src="<%= ResolveClientUrl("Scripts/ie10-viewport-bug-workaround.js") %>"></script>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.2.1.min.js"></script>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <!-- estilo para el calendario a la izquierda del grid de daypilot -->
+    <link type="text/css" rel="stylesheet" href="<%=ResolveUrl("Content/navigator.css")%>" />
+
+    
+    <%--<script type="text/javascript" src="<%= ResolveClientUrl("Scripts/custom.js") %>"></script> <!-- Des-habilita el boton de regresar -->--%>
+    <script type="text/javascript">
+        /*function Confirmar(id) {
+            alert("Gio");
+            if (id == "1") {
+                var confirmar = alert("Selecciona a un usuario valido");
+            }
+            else
+                if (id == "2") {
+                  var confirmar = alert("Contraseña incorrecta revisar");
+            }
+        }*/
+
+        /*
+            IdCampo: Campo a actualizar con la fecha
+                        1 - FechaActual
+
+            TipoSuma:   
+                        0 - No realizara nada
+                        1 - Día
+                        2 - Mes
+                        4 - Año
+            Cant: Cantidad a sumar o restar
+                    
+        */
+
+        /*
+        function sumarDias(fecha, dias){
+            fecha.setDate(fecha.getDate() + dias);
+            return fecha;
+        }
+        */
+
+        function FechaAct(idCampo, TipoSuma, Cant)
+        {
+
+            var f = new Date(); //Obtenemos fecha actual
+            var DiaActual = f.getDate(); //Obtenemos día actual
+            var MesActual = f.getMonth(); //Obtenemos mes actual 0-11            
+
+            //Hacemos operaciones correspondientes
+            switch (TipoSuma) {
+                case 1:                    
+                    f.setDate(DiaActual + (Cant * 1));
+                    break;
+                case 2:
+                    f.setMonth(MesActual + (Cant * 1));
+                    break;
+                case 3:
+                    f.setMonth(MesActual + ((Cant * 12) * 1));
+                    break;
+            }            
+           
+           //Dividimos la fecha en día, mes y año
+           var anio = f.getFullYear();
+           var mes = f.getMonth() + 1;
+           var dia = f.getDate();
+           var Campo;
+
+           //Asignamos el campo a actualizar    
+           switch(idCampo) {
+               case 1:
+                   Campo = "FecCita"
+                   break;
+           }
+            //Concatemamos el cero para días y meses menores al 10
+           if (mes < 10 )  {
+               mes = "0" +mes;
+           }
+
+           if (dia < 10) {
+               mes = "0" + dia;
+           }
+           FechaAct = (anio + '-' + mes + "-" + dia);
+           //document.getElementById(Campo).value = FechaAct;
+       }
+
+    </script>
+
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+
+</head>
+<body onload="">
+    <div class="container">        
+        <form id="form1" runat="server">
+            <nav class="navbar navbar-inverse">
+            <div class="container-fluid">
+                <!-- Brand and toggle get grouped for better mobile display -->
+                <div class="navbar-header">
+                  <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                  </button>
+                  <a class="navbar-brand" href="#">
+                    <img src="Media/logo_skytex.png" class="img-responsive"  width="20" height="20"/>
+                  </a>
+                </div>
+
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <% if (Session["NombreUser"] == null)
+                       {
+                    %>
+                      <!--<li><a href="#"><span class="glyphicon glyphicon-log-in" aria-hidden="true"> </span> Login</a></li>-->
+                    <%       
+                       }
+                       else
+                       {
+                    %>
+                      <ul class="nav navbar-nav">
+                        <li class="active"><a href="AgendaCitas.aspx"><span class="glyphicon glyphicon-home" aria-hidden="true"> </span> Inicio <span class="sr-only">(current)</span></a></li>
+                        <!--<li class="dropdown">
+                          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
+                          <ul class="dropdown-menu">
+                            <li><a href="AgendarCita.aspx">Agenda</a></li>
+                            <li><a href="#">Another action</a></li>
+                            <li><a href="#">Something else here</a></li>
+                            <li role="separator" class="divider"></li>
+                            <li><a href="#">Separated link</a></li>
+                            <li role="separator" class="divider"></li>
+                            <li><a href="#">One more separated link</a></li>
+                          </ul>
+                        </li>-->
+                      </ul>
+                      <ul class="nav navbar-nav navbar-right">
+                        <li><asp:LinkButton ID="lnkCerrarSession" runat="server" OnClick="CerrarSession"><span class="glyphicon glyphicon-log-in" aria-hidden="true"> </span> Cerrar Sesion</asp:LinkButton></li>
+                      </ul>
+                    <%   
+                       }
+                    %>
+                </div><!-- /.navbar-collapse -->
+            </div><!-- /.container-fluid -->
+        </nav>
+            <div>
+                <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        
+                </asp:ContentPlaceHolder>
+            </div>
+        </form>
+    </div>
+    <br />
+    <br />
+    <br />
+    <div class="container">
+        <footer class="piePagina">
+	        <address>
+                <strong>Skytex México S.A de C.V.</strong><br />
+                Corredor Industrial Quetzalcóatl, Huejotzingo, Pue<br />
+            </address>
+
+            <address>
+                <strong>Pagina Web</strong><br />
+                <a href="http://www.skytex.com.mx/">Skytex México</a>
+            </address>
+        </footer>
+    </div>
+</body>
+</html>
