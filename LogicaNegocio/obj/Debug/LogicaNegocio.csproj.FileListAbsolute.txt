@@ -1,0 +1,66 @@
+C:\Users\isai.meza\Documents\WebAppCitas\LogicaNegocio\bin\Debug\LogicaNegocio.dll
+C:\Users\isai.meza\Documents\WebAppCitas\LogicaNegocio\bin\Debug\LogicaNegocio.pdb
+C:\Users\isai.meza\Documents\WebAppCitas\LogicaNegocio\bin\Debug\AccesoDatos.dll
+C:\Users\isai.meza\Documents\WebAppCitas\LogicaNegocio\bin\Debug\Entidades.dll
+C:\Users\isai.meza\Documents\WebAppCitas\LogicaNegocio\bin\Debug\EntityFramework.dll
+C:\Users\isai.meza\Documents\WebAppCitas\LogicaNegocio\bin\Debug\AccesoDatos.pdb
+C:\Users\isai.meza\Documents\WebAppCitas\LogicaNegocio\bin\Debug\Entidades.pdb
+C:\Users\isai.meza\Documents\WebAppCitas\LogicaNegocio\bin\Debug\EntityFramework.xml
+C:\Users\isai.meza\Documents\WebAppCitas\LogicaNegocio\obj\Debug\LogicaNegocio.csprojResolveAssemblyReference.cache
+C:\Users\isai.meza\Documents\WebAppCitas\LogicaNegocio\obj\Debug\LogicaNegocio.dll
+C:\Users\isai.meza\Documents\WebAppCitas\LogicaNegocio\obj\Debug\LogicaNegocio.pdb
+C:\Users\isai.meza\Documents\resp\WebAppCitas\LogicaNegocio\bin\Debug\LogicaNegocio.dll
+C:\Users\isai.meza\Documents\resp\WebAppCitas\LogicaNegocio\bin\Debug\LogicaNegocio.pdb
+C:\Users\isai.meza\Documents\resp\WebAppCitas\LogicaNegocio\bin\Debug\AccesoDatos.dll
+C:\Users\isai.meza\Documents\resp\WebAppCitas\LogicaNegocio\bin\Debug\Entidades.dll
+C:\Users\isai.meza\Documents\resp\WebAppCitas\LogicaNegocio\bin\Debug\EntityFramework.dll
+C:\Users\isai.meza\Documents\resp\WebAppCitas\LogicaNegocio\bin\Debug\AccesoDatos.pdb
+C:\Users\isai.meza\Documents\resp\WebAppCitas\LogicaNegocio\bin\Debug\Entidades.pdb
+C:\Users\isai.meza\Documents\resp\WebAppCitas\LogicaNegocio\bin\Debug\EntityFramework.xml
+C:\Users\isai.meza\Documents\resp\WebAppCitas\LogicaNegocio\obj\Debug\LogicaNegocio.csprojResolveAssemblyReference.cache
+C:\Users\isai.meza\Documents\resp\WebAppCitas\LogicaNegocio\obj\Debug\LogicaNegocio.dll
+C:\Users\isai.meza\Documents\resp\WebAppCitas\LogicaNegocio\obj\Debug\LogicaNegocio.pdb
+C:\Users\isai.meza\Documents\03-11-16\WebAppCitas\LogicaNegocio\bin\Debug\LogicaNegocio.dll
+C:\Users\isai.meza\Documents\03-11-16\WebAppCitas\LogicaNegocio\bin\Debug\LogicaNegocio.pdb
+C:\Users\isai.meza\Documents\03-11-16\WebAppCitas\LogicaNegocio\bin\Debug\AccesoDatos.dll
+C:\Users\isai.meza\Documents\03-11-16\WebAppCitas\LogicaNegocio\bin\Debug\Entidades.dll
+C:\Users\isai.meza\Documents\03-11-16\WebAppCitas\LogicaNegocio\bin\Debug\EntityFramework.dll
+C:\Users\isai.meza\Documents\03-11-16\WebAppCitas\LogicaNegocio\bin\Debug\AccesoDatos.pdb
+C:\Users\isai.meza\Documents\03-11-16\WebAppCitas\LogicaNegocio\bin\Debug\Entidades.pdb
+C:\Users\isai.meza\Documents\03-11-16\WebAppCitas\LogicaNegocio\bin\Debug\EntityFramework.xml
+C:\Users\isai.meza\Documents\03-11-16\WebAppCitas\LogicaNegocio\obj\Debug\LogicaNegocio.csprojResolveAssemblyReference.cache
+C:\Users\isai.meza\Documents\03-11-16\WebAppCitas\LogicaNegocio\obj\Debug\LogicaNegocio.dll
+C:\Users\isai.meza\Documents\03-11-16\WebAppCitas\LogicaNegocio\obj\Debug\LogicaNegocio.pdb
+C:\Users\isai.meza\Documents\AppCitas_\03-11-16\WebAppCitas\LogicaNegocio\bin\Debug\LogicaNegocio.dll
+C:\Users\isai.meza\Documents\AppCitas_\03-11-16\WebAppCitas\LogicaNegocio\bin\Debug\LogicaNegocio.pdb
+C:\Users\isai.meza\Documents\AppCitas_\03-11-16\WebAppCitas\LogicaNegocio\bin\Debug\AccesoDatos.dll
+C:\Users\isai.meza\Documents\AppCitas_\03-11-16\WebAppCitas\LogicaNegocio\bin\Debug\Entidades.dll
+C:\Users\isai.meza\Documents\AppCitas_\03-11-16\WebAppCitas\LogicaNegocio\bin\Debug\EntityFramework.dll
+C:\Users\isai.meza\Documents\AppCitas_\03-11-16\WebAppCitas\LogicaNegocio\bin\Debug\AccesoDatos.pdb
+C:\Users\isai.meza\Documents\AppCitas_\03-11-16\WebAppCitas\LogicaNegocio\bin\Debug\Entidades.pdb
+C:\Users\isai.meza\Documents\AppCitas_\03-11-16\WebAppCitas\LogicaNegocio\bin\Debug\EntityFramework.xml
+C:\Users\isai.meza\Documents\AppCitas_\03-11-16\WebAppCitas\LogicaNegocio\obj\Debug\LogicaNegocio.csprojResolveAssemblyReference.cache
+C:\Users\isai.meza\Documents\AppCitas_\03-11-16\WebAppCitas\LogicaNegocio\obj\Debug\LogicaNegocio.dll
+C:\Users\isai.meza\Documents\AppCitas_\03-11-16\WebAppCitas\LogicaNegocio\obj\Debug\LogicaNegocio.pdb
+C:\Users\geovana.contreras\Documents\Visual Studio 2013\Projects\WebAppCitas\LogicaNegocio\bin\Debug\LogicaNegocio.dll
+C:\Users\geovana.contreras\Documents\Visual Studio 2013\Projects\WebAppCitas\LogicaNegocio\bin\Debug\LogicaNegocio.pdb
+C:\Users\geovana.contreras\Documents\Visual Studio 2013\Projects\WebAppCitas\LogicaNegocio\bin\Debug\AccesoDatos.dll
+C:\Users\geovana.contreras\Documents\Visual Studio 2013\Projects\WebAppCitas\LogicaNegocio\bin\Debug\Entidades.dll
+C:\Users\geovana.contreras\Documents\Visual Studio 2013\Projects\WebAppCitas\LogicaNegocio\bin\Debug\EntityFramework.dll
+C:\Users\geovana.contreras\Documents\Visual Studio 2013\Projects\WebAppCitas\LogicaNegocio\bin\Debug\AccesoDatos.pdb
+C:\Users\geovana.contreras\Documents\Visual Studio 2013\Projects\WebAppCitas\LogicaNegocio\bin\Debug\Entidades.pdb
+C:\Users\geovana.contreras\Documents\Visual Studio 2013\Projects\WebAppCitas\LogicaNegocio\bin\Debug\EntityFramework.xml
+C:\Users\geovana.contreras\Documents\Visual Studio 2013\Projects\WebAppCitas\LogicaNegocio\obj\Debug\LogicaNegocio.csprojResolveAssemblyReference.cache
+C:\Users\geovana.contreras\Documents\Visual Studio 2013\Projects\WebAppCitas\LogicaNegocio\obj\Debug\LogicaNegocio.dll
+C:\Users\geovana.contreras\Documents\Visual Studio 2013\Projects\WebAppCitas\LogicaNegocio\obj\Debug\LogicaNegocio.pdb
+C:\Users\fernando.garcia\Documents\Proyectos Skytex\WebAppCitas\LogicaNegocio\bin\Debug\LogicaNegocio.dll
+C:\Users\fernando.garcia\Documents\Proyectos Skytex\WebAppCitas\LogicaNegocio\bin\Debug\LogicaNegocio.pdb
+C:\Users\fernando.garcia\Documents\Proyectos Skytex\WebAppCitas\LogicaNegocio\bin\Debug\AccesoDatos.dll
+C:\Users\fernando.garcia\Documents\Proyectos Skytex\WebAppCitas\LogicaNegocio\bin\Debug\Entidades.dll
+C:\Users\fernando.garcia\Documents\Proyectos Skytex\WebAppCitas\LogicaNegocio\bin\Debug\EntityFramework.dll
+C:\Users\fernando.garcia\Documents\Proyectos Skytex\WebAppCitas\LogicaNegocio\bin\Debug\AccesoDatos.pdb
+C:\Users\fernando.garcia\Documents\Proyectos Skytex\WebAppCitas\LogicaNegocio\bin\Debug\Entidades.pdb
+C:\Users\fernando.garcia\Documents\Proyectos Skytex\WebAppCitas\LogicaNegocio\bin\Debug\EntityFramework.xml
+C:\Users\fernando.garcia\Documents\Proyectos Skytex\WebAppCitas\LogicaNegocio\obj\Debug\LogicaNegocio.csprojResolveAssemblyReference.cache
+C:\Users\fernando.garcia\Documents\Proyectos Skytex\WebAppCitas\LogicaNegocio\obj\Debug\LogicaNegocio.dll
+C:\Users\fernando.garcia\Documents\Proyectos Skytex\WebAppCitas\LogicaNegocio\obj\Debug\LogicaNegocio.pdb
