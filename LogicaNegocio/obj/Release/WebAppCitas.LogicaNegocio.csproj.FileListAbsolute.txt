@@ -9,3 +9,14 @@ C:\Users\fernando.garcia\Documents\Proyectos Skytex\WebAppCitas\LogicaNegocio\bi
 C:\Users\fernando.garcia\Documents\Proyectos Skytex\WebAppCitas\LogicaNegocio\obj\Release\WebAppCitas.LogicaNegocio.csprojResolveAssemblyReference.cache
 C:\Users\fernando.garcia\Documents\Proyectos Skytex\WebAppCitas\LogicaNegocio\obj\Release\LogicaNegocio.dll
 C:\Users\fernando.garcia\Documents\Proyectos Skytex\WebAppCitas\LogicaNegocio\obj\Release\LogicaNegocio.pdb
+C:\Users\fernando.garcia\Documents\Repositorios\WebAppCitas\LogicaNegocio\bin\Release\LogicaNegocio.dll
+C:\Users\fernando.garcia\Documents\Repositorios\WebAppCitas\LogicaNegocio\bin\Release\LogicaNegocio.pdb
+C:\Users\fernando.garcia\Documents\Repositorios\WebAppCitas\LogicaNegocio\bin\Release\AccesoDatos.dll
+C:\Users\fernando.garcia\Documents\Repositorios\WebAppCitas\LogicaNegocio\bin\Release\Entidades.dll
+C:\Users\fernando.garcia\Documents\Repositorios\WebAppCitas\LogicaNegocio\bin\Release\EntityFramework.dll
+C:\Users\fernando.garcia\Documents\Repositorios\WebAppCitas\LogicaNegocio\bin\Release\AccesoDatos.pdb
+C:\Users\fernando.garcia\Documents\Repositorios\WebAppCitas\LogicaNegocio\bin\Release\Entidades.pdb
+C:\Users\fernando.garcia\Documents\Repositorios\WebAppCitas\LogicaNegocio\bin\Release\EntityFramework.xml
+C:\Users\fernando.garcia\Documents\Repositorios\WebAppCitas\LogicaNegocio\obj\Release\WebAppCitas.LogicaNegocio.csprojResolveAssemblyReference.cache
+C:\Users\fernando.garcia\Documents\Repositorios\WebAppCitas\LogicaNegocio\obj\Release\LogicaNegocio.dll
+C:\Users\fernando.garcia\Documents\Repositorios\WebAppCitas\LogicaNegocio\obj\Release\LogicaNegocio.pdb

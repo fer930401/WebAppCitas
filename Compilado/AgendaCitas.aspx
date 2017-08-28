@@ -318,11 +318,15 @@
                                     row.Cells[7].Text = "";
                                     row.Cells[8].Text = "";
                                     row.Cells[9].Text = "";
-                                    //DateTime fechaCita = DateTime.Parse(row.Cells[2].Text);
+                                    DateTime fechaCita = DateTime.Parse(row.Cells[2].Text);
                                     if (DateTime.Now.ToString("yyyy-MM-dd").Equals(row.Cells[2].Text.Substring(0, 10)) == false)
                                     {
                                         row.Cells[10].Text = "";
                                     }
+                                    /*if (fechaCita >= DateTime.Now.AddMinutes(-30) == false || fechaCita <= DateTime.Now.AddMinutes(30) == false)
+                                    {
+                                        row.Cells[10].Text = "";
+                                    }*/
                                     //row.Cells[9].Text = "";
                                     //row.Cells[8].Text = "";
                                 }
